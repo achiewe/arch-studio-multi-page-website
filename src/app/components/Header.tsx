@@ -13,7 +13,7 @@ export default function Header(): JSX.Element {
   console.log(frame);
 
   return (
-    <header className="flex flex-row p-[32px] justify-between w-full items-center">
+    <header className="flex flex-row p-[32px] justify-between w-full items-center ">
       <img src={logoSvg.src} alt="logo svg" className="w-[77px] h-[32.028px]" />
       <img
         src={burgerSvg.src}

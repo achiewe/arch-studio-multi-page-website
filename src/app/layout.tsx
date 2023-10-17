@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import { Providers } from "@/features/Provider";
 import Header from "./components/Header";
+import BurgerMenu from "./components/BurgerMenu";
 
 const spartan = League_Spartan({ subsets: ["latin"], weight: ["500", "700"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <Providers>
         <body className={spartan.className}>
           <Header />
+          <BurgerMenu />
           {children}
         </body>
       </Providers>
