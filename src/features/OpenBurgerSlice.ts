@@ -1,10 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export interface burgerProps {
+export interface BurgerProps {
   openFrame: boolean;
 }
 
-const initialState: burgerProps = {
+const initialState: BurgerProps = {
   openFrame: false,
 };
 
