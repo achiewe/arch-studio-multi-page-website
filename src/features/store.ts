@@ -10,3 +10,5 @@ const store = configureStore({
 export type RootState = {
   openFrame: BurgerProps;
 };
+
+export default store;
