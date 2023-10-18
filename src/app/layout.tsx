@@ -4,6 +4,7 @@ import { League_Spartan } from "next/font/google";
 import { Providers } from "@/features/Provider";
 import Header from "./components/Header";
 import BurgerMenu from "./components/BurgerMenu";
+import Footer from "./components/Footer";
 
 const spartan = League_Spartan({ subsets: ["latin"], weight: ["500", "700"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           <Header />
           <BurgerMenu />
           {children}
+          <Footer />
         </body>
       </Providers>
     </html>
