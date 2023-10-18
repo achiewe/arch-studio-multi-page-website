@@ -8,9 +8,6 @@ import { RootState } from "@/features/store";
 
 export default function Header(): JSX.Element {
   const dispatch = useDispatch();
-  const frame = useSelector((store: RootState) => store.openFrame.openFrame);
-
-  console.log(frame);
 
   return (
     <header className="flex flex-row p-[32px] justify-between w-full items-center ">
