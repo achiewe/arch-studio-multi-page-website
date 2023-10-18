@@ -2,9 +2,8 @@
 
 import logoSvg from "../../../public/assets/logo.svg";
 import burgerSvg from "../../../public/assets/icons/icon-hamburger.svg";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setOpenFrame } from "@/features/OpenBurgerSlice";
-import { RootState } from "@/features/store";
 
 export default function Header(): JSX.Element {
   const dispatch = useDispatch();
