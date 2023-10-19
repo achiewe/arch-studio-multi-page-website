@@ -6,8 +6,10 @@ import { useDispatch } from "react-redux";
 import { setOpenFrame } from "@/features/OpenBurgerSlice";
 
 export default function Header(): JSX.Element {
+  //use dispatch for redux
   const dispatch = useDispatch();
 
+  //header component
   return (
     <header className="flex flex-row p-[32px] justify-between w-full items-center ">
       <img
