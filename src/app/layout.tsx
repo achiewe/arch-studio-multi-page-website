@@ -4,7 +4,7 @@ import { League_Spartan } from "next/font/google";
 import { Providers } from "@/features/Provider";
 import Header from "./components/Header/Header";
 import BurgerMenu from "./components/Header/BurgerMenu";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
 const spartan = League_Spartan({ subsets: ["latin"], weight: ["500", "700"] });
 
