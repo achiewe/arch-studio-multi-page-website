@@ -1,4 +1,4 @@
-import archSvg from "../../../public/assets/Group 21.svg";
+import archSvg from "../../../../public/assets/Group 21.svg";
 import Link from "next/link";
 
 //add footer component
