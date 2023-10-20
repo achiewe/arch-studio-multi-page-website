@@ -1,7 +1,7 @@
 "use client";
 
-import logoSvg from "../../../public/assets/logo.svg";
-import burgerSvg from "../../../public/assets/icons/icon-hamburger.svg";
+import logoSvg from "../../../../public/assets/logo.svg";
+import burgerSvg from "../../../../public/assets/icons/icon-hamburger.svg";
 import { useDispatch } from "react-redux";
 import { setOpenFrame } from "@/features/OpenBurgerSlice";
 
