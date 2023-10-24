@@ -1,3 +1,4 @@
+// burger menu state for open it
 import { createSlice } from "@reduxjs/toolkit";
 
 export interface BurgerProps {
