@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 
 export default function BurgerMenu(): JSX.Element {
+  //burger menu where is main pages of site
   const openFrame = useSelector(
     (store: RootState) => store.openFrame.openFrame
   );
