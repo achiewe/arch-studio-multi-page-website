@@ -4,7 +4,7 @@ import paramourJpg from "../../../../public/assets/home/mobile/image-hero-paramo
 export default function ProjectParamourInfo(): JSX.Element {
   return (
     <div className={`w-full h-[560px] flex bg-heroPattern`}>
-      <img src={paramourJpg.src} alt="paramour jpg" />
+      <img src={paramourJpg.src} alt="paramour jpg" className="w-full" />
     </div>
   );
 }
