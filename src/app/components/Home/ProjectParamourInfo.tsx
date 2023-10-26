@@ -21,7 +21,12 @@ export default function ProjectParamourInfo(): JSX.Element {
           is a statement of bold, modern architecture.
         </p>
       </div>
-      <Link href="/Portfolio"> </Link>
+      <Link
+        href="/Portfolio"
+        className="w-[252px] h-[72px] flex justify-center items-center gap-[24px] bg-[#1B1D23] text-[#FFFFFF] text-[18px] font-bold leading-[25px]"
+      >
+        See Our Portfolio
+      </Link>
     </div>
   );
 }
