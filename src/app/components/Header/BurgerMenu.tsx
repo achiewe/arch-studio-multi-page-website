@@ -11,7 +11,7 @@ export default function BurgerMenu(): JSX.Element {
   );
   return (
     <div
-      className={`w-[343px] h-[235px] bg-[#EEEFF4] z-[1] overflow-x-hidden transition-all duration-1000 z-20 ${
+      className={`w-[343px] h-[235px] bg-[#EEEFF4] overflow-x-hidden transition-all duration-1000 z-20 ${
         openFrame ? "absolute" : "fixed"
       } top-[96px] ${
         openFrame ? "right-0" : "right-[-100%]"
