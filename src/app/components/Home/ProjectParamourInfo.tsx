@@ -1,5 +1,6 @@
 import React from "react";
 import paramourJpg from "../../../../public/assets/home/mobile/image-hero-paramour.jpg";
+import arrowWhiteSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
 import Link from "next/link";
 
 export default function ProjectParamourInfo(): JSX.Element {
@@ -9,7 +10,7 @@ export default function ProjectParamourInfo(): JSX.Element {
 
   return (
     <div
-      className="w-full h-[560px] flex bg-heroPattern bg-no-repeat bg-cover px-[32px] justify-center items-center flex-col gap-[83px]"
+      className="w-full h-[560px] flex bg-heroPattern bg-no-repeat bg-cover px-[32px] justify-center items-start flex-col gap-[83px]"
       style={styleBack}
     >
       <div className="w-full flex flex-col gap-[11px] items-start">
@@ -23,9 +24,10 @@ export default function ProjectParamourInfo(): JSX.Element {
       </div>
       <Link
         href="/Portfolio"
-        className="w-[252px] h-[72px] flex justify-center items-center gap-[24px] bg-[#1B1D23] text-[#FFFFFF] text-[18px] font-bold leading-[25px]"
+        className="w-[252px] cursor-pointer h-[72px] flex justify-center items-center gap-[24px] bg-[#1B1D23] text-[#FFFFFF] text-[18px] font-bold leading-[25px]"
       >
         See Our Portfolio
+        <img src={arrowWhiteSvg.src} alt="arrow svg" />
       </Link>
     </div>
   );
