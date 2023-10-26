@@ -10,7 +10,7 @@ export default function ProjectParamourInfo(): JSX.Element {
 
   return (
     <div
-      className="w-full h-[560px] flex bg-heroPattern bg-no-repeat bg-cover px-[32px] justify-center items-start flex-col gap-[83px]"
+      className="w-full h-[560px] flex bg-heroPattern bg-no-repeat bg-cover px-[32px] justify-center items-start flex-col gap-[83px] relative"
       style={styleBack}
     >
       <div className="w-full flex flex-col gap-[11px] items-start">
@@ -29,6 +29,7 @@ export default function ProjectParamourInfo(): JSX.Element {
         See Our Portfolio
         <img src={arrowWhiteSvg.src} alt="arrow svg" />
       </Link>
+      <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
     </div>
   );
 }
