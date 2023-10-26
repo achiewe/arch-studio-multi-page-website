@@ -24,8 +24,6 @@ export default function RootLayout({
       <Providers>
         <body className={spartan.className}>
           <Header />
-
-          <div className="w-full min-h-screen bg-[#000000] opacity-50 absolute"></div>
           <BurgerMenu />
           {children}
 
