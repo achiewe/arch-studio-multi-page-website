@@ -1,5 +1,6 @@
 import React from "react";
 import paramourJpg from "../../../../public/assets/home/mobile/image-hero-paramour.jpg";
+import Link from "next/link";
 
 export default function ProjectParamourInfo(): JSX.Element {
   const styleBack = {
@@ -15,7 +16,12 @@ export default function ProjectParamourInfo(): JSX.Element {
         <h1 className="text-[48px] text-[#FFF] font-bold leading-[48px] tracking-[-1.2px]">
           Project Paramour
         </h1>
+        <p className="text-[18px] text-[#FFF] font-medium leading-[24px]">
+          Project made for an art museum near Southwest London. Project Paramour
+          is a statement of bold, modern architecture.
+        </p>
       </div>
+      <Link href="/Portfolio"> </Link>
     </div>
   );
 }
