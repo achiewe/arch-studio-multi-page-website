@@ -8,7 +8,7 @@ interface ProjectPorps {
   }[];
 }
 
-export const allProject: ProjectPorps = {
+export const PortfolioItems: ProjectPorps = {
   PortfolioArray: [
     {
       name: "Seraph Station",
