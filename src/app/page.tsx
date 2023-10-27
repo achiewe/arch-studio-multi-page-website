@@ -1,3 +1,4 @@
+import AboutTeam from "./components/Home/AboutTeam";
 import ProjectMainDesc from "./components/Home/ProjectMainDesc";
 import ProjectParamouInfo from "./components/Home/ProjectParamourInfo";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="flex flex-col w-full relative">
       <ProjectParamouInfo />
       <ProjectMainDesc />
+      <AboutTeam />
     </div>
   );
 }
