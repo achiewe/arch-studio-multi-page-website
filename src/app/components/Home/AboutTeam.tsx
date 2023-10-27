@@ -3,7 +3,7 @@ import arrowWhiteSvg from "../../../../public/assets/icons/icon-white-arrow.svg"
 
 export default function AboutTeam() {
   return (
-    <div className="w-full h-[560px] bg-SmallTeamMob bg-no-repeat bg-cover flex justify-center flex-col gap-[23px] items-start px-[32px] relative">
+    <div className="w-full h-[560px] bg-SmallTeamMob bg-no-repeat bg-cover flex justify-center flex-col gap-[23px] items-start px-[32px] relative mb-[73px]">
       <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
       <h1 className="text-[48px] text-[#FFF] font-bold leading-[48px] tracking-[-1.2px] z-10">
         Small team, big ideas
