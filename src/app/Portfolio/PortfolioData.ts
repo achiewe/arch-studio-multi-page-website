@@ -5,12 +5,14 @@ interface ProjectPorps {
     image: string;
     image1: string;
     image2: string;
+    id: number;
   }[];
 }
 
 export const PortfolioItems: ProjectPorps = {
   PortfolioArray: [
     {
+      id: 1,
       name: "Seraph Station",
       date: "September 2019",
       image: "/assets/portfolio/mobile/image-eebox.jpg",
@@ -18,6 +20,7 @@ export const PortfolioItems: ProjectPorps = {
       image2: "/assets/portfolio/desktop/image-eebox.jpg",
     },
     {
+      id: 2,
       name: "Eebox Building",
       date: "August 2017",
       image: "/assets/portfolio/mobile/image-seraph.jpg",
@@ -26,6 +29,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 3,
       name: "Federal II Tower",
       date: "March 2017",
       image: "/assets/portfolio/mobile/image-federal.jpg",
@@ -34,6 +38,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 4,
       name: "Project Del Sol",
       date: "January 2016",
       image: "/assets/portfolio/mobile/image-del-sol.jpg",
@@ -42,6 +47,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 5,
       name: "Le Prototype",
       date: "October 2015",
       image: "/assets/portfolio/mobile/image-prototype.jpg",
@@ -50,6 +56,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 6,
       name: "228B Tower",
       date: "April 2015",
       image: "/assets/portfolio/mobile/image-228b.jpg",
@@ -58,6 +65,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 7,
       name: "Grand Edelweiss Hote",
       date: "December 2013",
       image: "/assets/portfolio/mobile/image-edelweiss.jpg",
@@ -66,6 +74,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 8,
       name: "Hypers",
       date: "January 2012",
       image: "/assets/portfolio/mobile/image-hypers.jpg",
@@ -74,6 +83,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 9,
       name: "SXIV Tower",
       date: "March 2011",
       image: "/assets/portfolio/mobile/image-sxiv.jpg",
@@ -82,6 +92,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 10,
       name: "Trinity Bank Tower",
       date: "September 2010",
       image: "/assets/portfolio/mobile/image-trinity.jpg",
@@ -90,6 +101,7 @@ export const PortfolioItems: ProjectPorps = {
     },
 
     {
+      id: 11,
       name: "Project Paramour",
       date: "February 2008",
       image: "/assets/portfolio/mobile/image-paramour.jpg",
