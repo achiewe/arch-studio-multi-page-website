@@ -1,6 +1,6 @@
 export default function ProjectMainDesc(): JSX.Element {
   return (
-    <div className="w-full flex flex-col gap-[22px] px-[32px] items-start ">
+    <div className="w-full flex flex-col gap-[22px] px-[32px] items-start mb-[113px]">
       <h1 className="text-[48px] font-bold text-[#1B1D23] leading-[52px] tracking-[-1.714px]">
         Welcome to Arch Studio
       </h1>

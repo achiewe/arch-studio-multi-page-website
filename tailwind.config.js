@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         PraramourMob: "url('/assets/home/mobile/image-hero-paramour.jpg')",
-        SmallTeamMob: "url('/assets/home/mobile/image=small-team.jpg')",
+        SmallTeamMob: "url('/assets/home/mobile/image-small-team.jpg')",
       },
     },
   },
