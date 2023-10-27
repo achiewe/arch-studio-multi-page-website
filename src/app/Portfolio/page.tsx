@@ -41,7 +41,7 @@ export default function () {
           <div
             key={id}
             className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-no-repeat bg-cover relative"
-            style={{ backgroundImage: `url${imgPath}` }}
+            style={{ backgroundImage: `url(${imgPath})` }}
           >
             <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
               {item.name}
