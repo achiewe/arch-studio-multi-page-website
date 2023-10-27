@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FeaturedComp() {
   return (
     <div className="w-full px-[32px] flex items-start  flex-col gap-[43px] ">
@@ -5,7 +7,41 @@ export default function FeaturedComp() {
         Featured
       </h1>
       <div className="w-full flex flex-col gap-[24px] items-center justify-center">
-        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex justify-end"></div>
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-DelSolMob bg-no-repeat bg-cover">
+          <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
+            Project Del Sol
+          </h2>
+          <Link
+            href="/Portfolio"
+            className="text-[18px] cursor-pointer opacity-75 text-[#FFF] font-medium leading-[24px] z-10"
+          >
+            View All Projects
+          </Link>
+        </div>
+
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-TowerMob bg-no-repeat bg-cover">
+          <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
+            228B Tower
+          </h2>
+          <Link
+            href="/Portfolio"
+            className="text-[18px] cursor-pointer opacity-75 text-[#FFF] font-medium leading-[24px] z-10"
+          >
+            View All Projects
+          </Link>
+        </div>
+
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-LePrototypeMob bg-no-repeat bg-cover">
+          <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
+            Le Prototype
+          </h2>
+          <Link
+            href="/Portfolio"
+            className="text-[18px] cursor-pointer opacity-75 text-[#FFF] font-medium leading-[24px] z-10"
+          >
+            View All Projects
+          </Link>
+        </div>
       </div>
     </div>
   );
