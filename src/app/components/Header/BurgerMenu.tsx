@@ -1,14 +1,16 @@
 "use client";
 
+import { setOpenFrame } from "@/features/OpenBurgerSlice";
 import { RootState } from "@/features/store";
 import Link from "next/link";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function BurgerMenu(): JSX.Element {
   //burger menu where is main pages of site
   const openFrame = useSelector(
     (store: RootState) => store.openFrame.openFrame
   );
+  const dispatch = useDispatch();
   return (
     <div
       className={`w-[343px] h-[235px] bg-[#EEEFF4] overflow-x-hidden transition-all duration-1000 z-20 ${
@@ -20,18 +22,27 @@ export default function BurgerMenu(): JSX.Element {
       <Link
         href="/Portfolio"
         className="text-[#1B1D23] font-bold text-[32px] leading-[40px]"
+        onClick={() => {
+          dispatch(setOpenFrame());
+        }}
       >
         Portfolio
       </Link>
       <Link
         href="/AboutUs"
         className="text-[#1B1D23] font-bold text-[32px] leading-[40px]"
+        onClick={() => {
+          dispatch(setOpenFrame());
+        }}
       >
         About Us
       </Link>
       <Link
         href="/Contact"
         className="text-[#1B1D23] font-bold text-[32px] leading-[40px]"
+        onClick={() => {
+          dispatch(setOpenFrame());
+        }}
       >
         Contact
       </Link>
