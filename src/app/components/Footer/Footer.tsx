@@ -14,7 +14,7 @@ export default function Footer(): JSX.Element {
           Portfolio
         </Link>
         <Link
-          href="/About us"
+          href="/AboutUs"
           className="text-[#7D828F] font-bold text-[18px] leading-[25px]"
         >
           About Us

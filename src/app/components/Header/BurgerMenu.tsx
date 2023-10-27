@@ -24,7 +24,7 @@ export default function BurgerMenu(): JSX.Element {
         Portfolio
       </Link>
       <Link
-        href="/About us"
+        href="/AboutUs"
         className="text-[#1B1D23] font-bold text-[32px] leading-[40px]"
       >
         About Us

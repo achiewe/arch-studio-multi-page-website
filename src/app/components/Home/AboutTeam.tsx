@@ -9,7 +9,7 @@ export default function AboutTeam() {
         Small team, big ideas
       </h1>
       <Link
-        href="/About us"
+        href="/AboutUs"
         className="w-[187px] cursor-pointer h-[72px] flex justify-center items-center gap-[24px] bg-[#1B1D23] text-[#FFFFFF] text-[18px] font-bold leading-[25px] z-10"
       >
         About Us
