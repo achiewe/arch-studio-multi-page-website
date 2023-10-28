@@ -4,8 +4,8 @@ import Heritage from "../components/About/Heritage";
 export default function () {
   return (
     <div>
-      <AboutInfo />;
-      <Heritage />;
+      <AboutInfo />
+      <Heritage />
     </div>
   );
 }
