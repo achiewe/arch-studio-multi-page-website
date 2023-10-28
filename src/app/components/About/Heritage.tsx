@@ -6,7 +6,7 @@ export default function Heritage() {
         <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[ -1.714px]">
           Our Heritage
         </h1>
-        <p className="className=text-[18px] text-[#1B1D23] font-medium leading-[24px]">
+        <p className="text-[18px] text-[#1B1D23] font-medium leading-[24px]">
           Founded in 2007, we started as a trio of architects. Our complimentary
           skills and relentless attention to detail turned Arch into one of the
           most sought after boutique firms in the country. Speciliazing in Urban
