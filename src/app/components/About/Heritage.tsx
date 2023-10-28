@@ -1,3 +1,3 @@
 export default function Heritage() {
-  return <div> </div>;
+  return <div className="flex flex-col px-[32px] items-start "> </div>;
 }
