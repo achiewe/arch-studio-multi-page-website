@@ -10,6 +10,7 @@ module.exports = {
         TowerMob: "url('/assets/portfolio/mobile/image-228b.jpg')",
         LePrototypeMob: "url('/assets/portfolio/mobile/image-prototype.jpg')",
         imageHeroMob: "url('/assets/about/mobile/image-hero.jpg')",
+        imageHeroMobCont: "url('/assets/contact/mobile/image-hero.jpg')",
       },
     },
   },
