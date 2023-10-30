@@ -4,10 +4,10 @@ import ContactDetails from "../components/Contact/ContactDetails";
 
 export default function () {
   return (
-    <>
+    <div>
       <AboutProj />
       <ContactDetails />
       <ConnectWith />
-    </>
+    </div>
   );
 }
