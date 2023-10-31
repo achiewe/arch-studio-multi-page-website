@@ -1,7 +1,9 @@
 "use client";
-import { MapContainer, Marker, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import { MapContainer, Marker, TileLayer } from "react-leaflet";
 import { Icon } from "leaflet";
+
+import iconHamburger from "../../../../public/assets/icons/icon-hamburger.svg";
 
 export default function OfficeLocation() {
   const markers = [
@@ -9,7 +11,6 @@ export default function OfficeLocation() {
       geocode: [32.195189, -95.852155],
       popUp: "first office",
     },
-
     {
       geocode: [35.432421, -83.150185],
       popUp: "first office",
@@ -17,7 +18,7 @@ export default function OfficeLocation() {
   ];
 
   const customIcon = new Icon({
-    iconUrl: require("../../../../public/assets/icons/icon-hamburger.svg"),
+    iconUrl: iconHamburger.src,
     iconSize: [40, 48],
   });
 
@@ -33,9 +34,15 @@ export default function OfficeLocation() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {markers.map((marker) => {
+        {markers.map((marker, index) => {
           const [lat, lng] = marker.geocode;
-          return <Marker position={[lat, lng]} icon={customIcon}></Marker>;
+          return (
+            <Marker
+              key={index}
+              position={[lat, lng]}
+              icon={customIcon}
+            ></Marker>
+          );
         })}
       </MapContainer>
     </div>
