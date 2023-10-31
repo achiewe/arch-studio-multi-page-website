@@ -2,8 +2,7 @@
 import "leaflet/dist/leaflet.css";
 import { MapContainer, Marker, TileLayer } from "react-leaflet";
 import { Icon } from "leaflet";
-
-import iconHamburger from "../../../../public/assets/icons/icon-hamburger.svg";
+import iconHamburger from "../../../../public/assets/icons/Combined Shape.svg";
 
 export default function OfficeLocation() {
   const markers = [
