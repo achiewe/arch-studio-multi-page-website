@@ -32,33 +32,42 @@ export default function ConnectWith() {
         className="w-full flex flex-col gap-[43px]"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <div className="flex flex-col w-full gap-[21px]">
+        <div className="flex flex-col w-full gap-[21px] relative">
           <input
             type="text"
             placeholder="Name"
             {...register("name")}
             className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
           />
+          <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
+            {errors.name?.message}
+          </p>
           <hr className="h-[1px] border-none bg-[#1B1D23]" />
         </div>
 
-        <div className="flex flex-col w-full gap-[21px]">
+        <div className="flex flex-col w-full gap-[21px] relative">
           <input
             type="email"
             placeholder="Email"
             {...register("email")}
             className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
           />
+          <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
+            {errors.email?.message}
+          </p>
           <hr className="h-[1px] border-none bg-[#1B1D23]" />
         </div>
         <div className="w-full flex flex-col items-end">
-          <div className="flex flex-col w-full gap-[21px]">
+          <div className="flex flex-col w-full gap-[21px] relative">
             <input
               type="text"
               placeholder="Message"
               {...register("message")}
               className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
             />
+            <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
+              {errors.message?.message}
+            </p>
             <hr className="h-[1px] border-none bg-[#1B1D23]" />
           </div>
           <button
