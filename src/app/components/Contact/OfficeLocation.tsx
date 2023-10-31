@@ -25,7 +25,7 @@ export default function OfficeLocation() {
     <div className="w-[375px] h-[367px]">
       <MapContainer
         center={[34.756846, -90.068075]}
-        zoom={3}
+        zoom={5}
         scrollWheelZoom={false}
         style={{ width: "100%", height: "100%" }}
       >
