@@ -25,7 +25,7 @@ export default function ContactDetails() {
               </p>
             </div>
           </div>
-          <a className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]">
+          <a className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] cursor-pointer w-[200px]">
             View on Map <img src={ArrowSvg.src} alt="arrow svg" />
           </a>
         </div>
@@ -47,7 +47,7 @@ export default function ContactDetails() {
               </p>
             </div>
           </div>
-          <a className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]">
+          <a className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] cursor-pointer w-[200px]">
             View on Map <img src={ArrowSvg.src} alt="arrow svg" />
           </a>
         </div>
