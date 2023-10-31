@@ -1,6 +1,11 @@
 import arrowSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
 import { userSchema } from "./EmailModule";
 
+interface TypeEmailMessage {
+  email: string;
+  message: string;
+}
+
 export default function ConnectWith() {
   return (
     <div className="w-full px-[32px] gap-[42px] flex flex-col mb-[132px]">
