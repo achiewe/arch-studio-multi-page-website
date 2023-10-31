@@ -1,4 +1,5 @@
 import arrowSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
+import { userSchema } from "./EmailModule";
 
 export default function ConnectWith() {
   return (
