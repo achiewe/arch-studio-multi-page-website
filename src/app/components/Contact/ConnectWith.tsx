@@ -37,7 +37,10 @@ export default function ConnectWith() {
             type="text"
             placeholder="Name"
             {...register("name")}
-            className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
+            className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal 
+            } tracking-[ -0.312px] opacity-50 ${
+              errors.name ? "placeholder-[#DF5656]" : "placeholder-[#C8CCD8]}"
+            } outline-none`}
           />
           <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
             {errors.name?.message}
@@ -54,7 +57,9 @@ export default function ConnectWith() {
             type="email"
             placeholder="Email"
             {...register("email")}
-            className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
+            className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] opacity-50 ${
+              errors.email ? "placeholder-[#DF5656]" : "placeholder-[#C8CCD8]}"
+            } outline-none`}
           />
           <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
             {errors.email?.message}
@@ -71,7 +76,11 @@ export default function ConnectWith() {
               type="text"
               placeholder="Message"
               {...register("message")}
-              className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
+              className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] opacity-50 ${
+                errors.message
+                  ? "placeholder-[#DF5656]"
+                  : "placeholder-[#C8CCD8]}"
+              } outline-none`}
             />
             <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
               {errors.message?.message}
