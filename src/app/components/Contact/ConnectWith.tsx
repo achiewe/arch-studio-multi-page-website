@@ -42,7 +42,11 @@ export default function ConnectWith() {
           <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
             {errors.name?.message}
           </p>
-          <hr className="h-[1px] border-none bg-[#1B1D23]" />
+          <hr
+            className={`h-[1px] border-none ${
+              errors.name ? "bg-[#DF5656]" : "bg-[#1B1D23]"
+            }`}
+          />
         </div>
 
         <div className="flex flex-col w-full gap-[21px] relative">
@@ -55,7 +59,11 @@ export default function ConnectWith() {
           <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
             {errors.email?.message}
           </p>
-          <hr className="h-[1px] border-none bg-[#1B1D23]" />
+          <hr
+            className={`h-[1px] border-none ${
+              errors.email ? "bg-[#DF5656]" : "bg-[#1B1D23]"
+            }`}
+          />
         </div>
         <div className="w-full flex flex-col items-end">
           <div className="flex flex-col w-full gap-[21px] relative">
@@ -68,7 +76,11 @@ export default function ConnectWith() {
             <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
               {errors.message?.message}
             </p>
-            <hr className="h-[1px] border-none bg-[#1B1D23]" />
+            <hr
+              className={`h-[1px] border-none ${
+                errors.message ? "bg-[#DF5656]" : "bg-[#1B1D23]"
+              }`}
+            />
           </div>
           <button
             type="submit"
