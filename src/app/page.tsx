@@ -5,7 +5,7 @@ import FeaturedComp from "./components/Home/FeaturedComp";
 export default function Home() {
   // home page component
   return (
-    <div className="flex flex-col w-full relative">
+    <div className="flex flex-col w-full relative md:items-center md:justify-center">
       <ProjectParamouInfo />
       <ProjectMainDesc />
       <AboutTeam />
