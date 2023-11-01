@@ -15,17 +15,18 @@ export const PortfolioItems: ProjectPorps = {
       id: 1,
       name: "Seraph Station",
       date: "September 2019",
-      image: "/assets/portfolio/mobile/image-eebox.jpg",
-      image1: "/assets/portfolio/tablet/image-eebox.jpg",
-      image2: "/assets/portfolio/desktop/image-eebox.jpg",
+      image: "/assets/portfolio/mobile/image-seraph.jpg",
+      image1: "/assets/portfolio/tablet/image-seraph.jpg",
+      image2: "/assets/portfolio/desktop/image-seraph.jpg",
     },
     {
       id: 2,
       name: "Eebox Building",
       date: "August 2017",
-      image: "/assets/portfolio/mobile/image-seraph.jpg",
-      image1: "/assets/portfolio/tablet/image-seraph.jpg",
-      image2: "/assets/portfolio/desktop/image-seraph.jpg",
+
+      image: "/assets/portfolio/mobile/image-eebox.jpg",
+      image1: "/assets/portfolio/tablet/image-eebox.jpg",
+      image2: "/assets/portfolio/desktop/image-eebox.jpg",
     },
 
     {
