@@ -10,9 +10,25 @@ export default function Header(): JSX.Element {
   //use dispatch for redux
   const dispatch = useDispatch();
 
+  const path = window.location.pathname;
+
   //header component
   return (
-    <header className="flex flex-row p-[32px] justify-between w-full items-center md:gap-[79px] md:justify-center md:py-[56px] md:px-0 ">
+    <header className="flex flex-row p-[32px] justify-between w-full items-center md:gap-[79px] md:justify-center md:py-[56px] md:px-0 md:relative ">
+      <div className="hidden md:absolute left-[52px] top-0 md:flex flex-col gap-[48px] items-center">
+        <hr className="h-[104px] border-none bg-[#C8CCD8] w-[1px]" />
+        <h4 className="text-[#C8CCD8] font-medium text-[18px] leading-[24px] tracking-[18px] rotate-90">
+          {path === "/"
+            ? "HOME"
+            : path === "/Portfolio"
+            ? "PORTFOLIO"
+            : path === "/AboutUs"
+            ? "ABOUT US"
+            : path === "/Contact"
+            ? "CONTACT"
+            : "Default Value"}
+        </h4>
+      </div>
       <img
         src={logoSvg.src}
         alt="logo svg"
