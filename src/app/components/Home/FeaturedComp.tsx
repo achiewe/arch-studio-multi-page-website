@@ -3,9 +3,17 @@ import Link from "next/link";
 export default function FeaturedComp() {
   return (
     <div className="w-full px-[32px] flex items-start  flex-col gap-[43px] mb-[132px]">
-      <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[-1.714px]">
-        Featured
-      </h1>
+      <div className="w-full flex flex-row justify-between items-center">
+        <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[-1.714px]">
+          Featured
+        </h1>
+        <Link
+          href="/Portfolio"
+          className=" hidden md:flex flex-row items-center justify-center gap-[24px] w-[169px] h-[72px] bg-[#1B1D23] text-[#FFF]"
+        >
+          See All
+        </Link>
+      </div>
       <div className="w-full flex flex-col gap-[24px] items-center justify-center">
         <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-DelSolMob bg-no-repeat bg-cover relative">
           <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
