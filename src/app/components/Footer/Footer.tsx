@@ -4,9 +4,9 @@ import Link from "next/link";
 //add footer component
 export default function Footer(): JSX.Element {
   return (
-    <div className="bg-[#EEEFF4] w-full flex flex-col items-center gap-[33px] pb-[48px]">
-      <img src={archSvg.src} alt="arch svg" className="mt-[-60px]" />
-      <nav className="flex flex-col gap-[32px] items-center ">
+    <div className="bg-[#EEEFF4] w-full flex flex-col items-center gap-[33px] pb-[48px] md:flex-row md:pb-0 md:max-w-[612px] md:gap-[40px] md:relative">
+      <img src={archSvg.src} alt="arch svg" className="mt-[-60px] md:mt-0" />
+      <nav className="flex flex-col gap-[32px] items-center md:flex-row md:gap-[51px]">
         <Link
           href="/Portfolio"
           className="text-[#7D828F] font-bold text-[18px] leading-[25px]"
@@ -26,7 +26,10 @@ export default function Footer(): JSX.Element {
           Contact
         </Link>
       </nav>
-      <button className="w-[252px] h-[72px] bg-[#1B1D23] pt-[25px] pb-[22px] pl-[37px] pr-[32px] flex items-center gap-[24px]">
+      <Link
+        href="/Portfolio"
+        className="w-[252px] h-[72px] bg-[#1B1D23] pt-[25px] pb-[22px] pl-[37px] pr-[32px] flex items-center gap-[24px] md:absolute md:right-[-25.5%]"
+      >
         <h3 className="text-[#fff] font-bold text-[18px] leading-[25px] cursor-pointer ">
           See Our Portfolio
         </h3>
@@ -40,7 +43,7 @@ export default function Footer(): JSX.Element {
           <path d="M15 1L24 10L15 19" stroke="white" stroke-width="2" />
           <path d="M0 10H24" stroke="white" stroke-width="2" />
         </svg>
-      </button>
+      </Link>
     </div>
   );
 }
