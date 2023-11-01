@@ -17,7 +17,7 @@ export default function FeaturedComp() {
         </Link>
       </div>
       <div className="w-full flex flex-col gap-[24px] items-center justify-center">
-        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-DelSolMob bg-no-repeat bg-cover relative">
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-DelSolMob bg-no-repeat bg-cover relative md:bg-DelSolTab">
           <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
             Project Del Sol
           </h2>
@@ -33,7 +33,7 @@ export default function FeaturedComp() {
           </h3>
         </div>
 
-        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-TowerMob bg-no-repeat bg-cover relative">
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-TowerMob bg-no-repeat bg-cover relative md:bg-TowerTab">
           <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
             228B Tower
           </h2>
@@ -49,7 +49,7 @@ export default function FeaturedComp() {
           </h3>
         </div>
 
-        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-LePrototypeMob bg-no-repeat bg-cover relative">
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-LePrototypeMob bg-no-repeat bg-cover relative md:bg-LePrototypeTab">
           <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
             Le Prototype
           </h2>
