@@ -19,7 +19,7 @@ export default function Header(): JSX.Element {
         <hr className="h-[104px] border-none bg-[#C8CCD8] w-[1px]" />
         <h4 className="text-[#C8CCD8] font-medium text-[18px] leading-[24px] tracking-[18px] rotate-90">
           {path === "/"
-            ? "HOME"
+            ? "Home"
             : path === "/Portfolio"
             ? "PORTFOLIO"
             : path === "/AboutUs"
