@@ -20,7 +20,7 @@ export default function Header(): JSX.Element {
 
   //header component
   return (
-    <header className="flex flex-row p-[32px] justify-between w-full items-center md:gap-[79px] md:justify-center md:py-[56px] md:px-0 md:relative ">
+    <header className="flex flex-row p-[32px] justify-between w-full items-center md:gap-[79px] md:justify-center md:py-[56px] md:px-0 md:relative lg:w-[504px]">
       <div className="hidden md:absolute left-[38px] top-0 md:flex w-[24px] flex-col gap-[4`8px] items-center h-[354px]">
         <hr className="h-[104px] border-none bg-[#C8CCD8] w-[1px]" />
         <h4 className="text-[#C8CCD8] font-medium text-[18px] leading-[24px] tracking-[18px] rotate-90">
