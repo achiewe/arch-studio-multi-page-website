@@ -5,8 +5,8 @@ export default function AboutInfo() {
         <div className="w-full h-full bg-black opacity-50 top-0 left-0 right-0 bottom-0 absolute"></div>
         <div className="w-[345px] h-[45px] bg-[#FFFFFF] z-10 flex md:hidden "></div>
       </div>
-      <div className="flex w-full px-[32px] flex-col gap-[21px] md:absolute md:bg-[#FFFFFF] md:w-[572px] md:bottom-0 md:left-[155px] md:pt-[88px] md:px-[59px]">
-        <hr className="hidden md:flex w-[65px] h-[1px] border-none bg-[#C8CCD8] mb-[73px]" />
+      <div className="flex w-full px-[32px] flex-col gap-[21px] md:absolute md:bg-[#FFFFFF] md:w-[572px] md:bottom-0 md:left-[155px] md:pt-[88px] md:px-[59px] md:gap-[38px]">
+        <hr className="hidden md:flex w-[65px] h-[1px] border-none bg-[#C8CCD8] mb-[35px]" />
         <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[-1.2px] md:text-[72px] md:leading-[64px]">
           Your team of professionals
         </h1>
