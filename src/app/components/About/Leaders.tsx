@@ -5,13 +5,17 @@ import SimsonSvg from "../../../../public/assets/about/desktop/avatar-maria.jpg"
 
 export default function Leaders() {
   return (
-    <div className="w-full flex flex-col px-[32px] gap-[55px] mb-[171px]">
-      <h2 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] w-[220px]">
+    <div className="w-full flex flex-col px-[32px] gap-[55px] mb-[171px] md:px-0 md:gap-[49px] md:w-[573px] md:mb-[239px]">
+      <h2 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] w-[220px] md:text-[72px] md:leading-[64px] md:tracking-[-2px] md:w-[300px]">
         The Leaders
       </h2>
-      <div className="w-full flex flex-col gap-[79px]">
+      <div className="w-full flex flex-col gap-[79px] md:flex-row md:flex-wrap md:gap-x-[12px] md:gap-y-[103px]">
         <div className="flex flex-col gap-[15px] w-[full]">
-          <img src={JakeSvg.src} alt="Jake svg" />
+          <img
+            src={JakeSvg.src}
+            alt="Jake svg"
+            className="md:w-[280px] md:h-[256px]"
+          />
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Jake Richards
             <span className="text-[18px] text-[#1B1D23] font-medium leading-[24px] opacity-75">
@@ -21,7 +25,11 @@ export default function Leaders() {
         </div>
 
         <div className="flex flex-col gap-[15px] w-[full]">
-          <img src={SmithSvg.src} alt="Jake svg" />
+          <img
+            src={SmithSvg.src}
+            alt="Jake svg"
+            className="md:w-[280px] md:h-[256px]"
+          />
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Thompson Smith
             <span className="text-[18px] text-[#1B1D23] font-medium leading-[24px] opacity-75">
@@ -31,7 +39,11 @@ export default function Leaders() {
         </div>
 
         <div className="flex flex-col gap-[15px] w-[full]">
-          <img src={JacksonSvg.src} alt="Jake svg" />
+          <img
+            src={JacksonSvg.src}
+            alt="Jake svg"
+            className="md:w-[280px] md:h-[256px]"
+          />
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Jackson Rourke
             <span className="text-[18px] text-[#1B1D23] font-medium leading-[24px] opacity-75">
@@ -41,7 +53,11 @@ export default function Leaders() {
         </div>
 
         <div className="flex flex-col gap-[15px] w-[full]">
-          <img src={SimsonSvg.src} alt="Jake svg" />
+          <img
+            src={SimsonSvg.src}
+            alt="Jake svg"
+            className="md:w-[280px] md:h-[256px]"
+          />
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Maria Simpson
             <span className="text-[18px] text-[#1B1D23] font-medium leading-[24px] opacity-75">
