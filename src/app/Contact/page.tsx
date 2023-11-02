@@ -5,7 +5,7 @@ import OfficeLocation from "../components/Contact/OfficeLocation";
 
 export default function () {
   return (
-    <div>
+    <div className="w-full flex flex-col justify-center items-center">
       <AboutProj />
       <ContactDetails />
       <OfficeLocation />
