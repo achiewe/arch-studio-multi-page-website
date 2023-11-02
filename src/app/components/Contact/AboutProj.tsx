@@ -9,7 +9,8 @@ export default function AboutProj() {
         <h3 className="hidden md:flex absolute text-[120px] text-[#EEEFF4] font-bold leading-[200px] tracking-[-3px] top-[-90px] right-[60px]">
           Contact
         </h3>
-        <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[-1.2px]">
+        <hr className="hidden md:flex w-[65px] h-[1px] border-none bg-[#C8CCD8] mb-[35px]" />
+        <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[-1.2px] md:text-[72px] md:leading-[64px]">
           Tell us about your project
         </h1>
         <p className="text-[18px] text-[#60636D] font-medium leading-[24px]">
