@@ -29,7 +29,7 @@ export default function () {
     }
   }
   return (
-    <div className="mt-[55px] flex flex-col gap-[24px] px-[32px] w-full mb-[132px] md:mt-[62px] md:mb-[200px] md:px-0 justify-center items-center">
+    <div className="mt-[55px] flex flex-col gap-[24px] px-[32px] w-full mb-[132px] md:mt-0 md:mb-[200px] md:px-0 justify-center items-center">
       {PortfolioItems.PortfolioArray.map((item, id) => {
         const imgPath =
           currentDeviceType === "mobile"
