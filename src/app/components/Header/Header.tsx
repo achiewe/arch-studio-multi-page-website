@@ -4,12 +4,11 @@ import burgerSvg from "../../../../public/assets/icons/icon-hamburger.svg";
 import { useDispatch } from "react-redux";
 import { setOpenFrame } from "@/features/OpenBurgerSlice";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header(): JSX.Element {
   //use dispatch for redux
   const dispatch = useDispatch();
-
-  const path = window.location.pathname;
 
   //header component
   return (
