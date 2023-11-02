@@ -17,6 +17,7 @@ module.exports = {
         imageHeroMob: "url('/assets/about/mobile/image-hero.jpg')",
         imageHeroTab: "url('/assets/about/tablet/image-hero.jpg')",
         imageHeroMobCont: "url('/assets/contact/mobile/image-hero.jpg')",
+        imageHeroTabCont: "url('/assets/contact/tablet/image-hero.jpg')",
       },
     },
   },
