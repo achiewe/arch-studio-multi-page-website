@@ -4,7 +4,7 @@ import Leaders from "../components/About/Leaders";
 
 export default function () {
   return (
-    <div className="w-full flex-col justify-center items-center">
+    <div className="w-full flex flex-col justify-center items-center">
       <AboutInfo />
       <Heritage />
       <Leaders />
