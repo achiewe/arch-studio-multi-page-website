@@ -5,12 +5,18 @@ import { useDispatch } from "react-redux";
 import { setOpenFrame } from "@/features/OpenBurgerSlice";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export default function Header(): JSX.Element {
   //use dispatch for redux
   const dispatch = useDispatch();
 
   const pathname = usePathname();
+  const router = useRouter();
+
+  const handleOnSvg = (): void => {
+    router.push("/");
+  };
 
   //header component
   return (
@@ -31,6 +37,7 @@ export default function Header(): JSX.Element {
       </div>
       <img
         src={logoSvg.src}
+        onClick={handleOnSvg}
         alt="logo svg"
         className="w-[77px] h-[32.028px] cursor-pointer md:w-[96px] md:h-[40px]"
       />
