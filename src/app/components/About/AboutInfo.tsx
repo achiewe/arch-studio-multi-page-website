@@ -6,6 +6,9 @@ export default function AboutInfo() {
         <div className="w-[345px] h-[45px] bg-[#FFFFFF] z-10 flex md:hidden "></div>
       </div>
       <div className="flex w-full px-[32px] flex-col gap-[21px] md:absolute md:bg-[#FFFFFF] md:w-[572px] md:bottom-0 md:left-[155px] md:pt-[88px] md:px-[59px] md:gap-[38px]">
+        <h3 className="hidden md:flex absolute text-[120px] text-[#EEEFF4] font-bold leading-[200px] tracking-[-3px] top-[-90px] right-[60px]">
+          About
+        </h3>
         <hr className="hidden md:flex w-[65px] h-[1px] border-none bg-[#C8CCD8] mb-[35px]" />
         <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[-1.2px] md:text-[72px] md:leading-[64px]">
           Your team of professionals
