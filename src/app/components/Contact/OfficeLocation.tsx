@@ -22,7 +22,7 @@ export default function OfficeLocation() {
   });
 
   return (
-    <div className="w-full h-[367px] mb-[73px] md:h-[572px] md:w-[560px]">
+    <div className="w-full h-[367px] mb-[73px] md:h-[572px] md:w-[560px] md:mb-[199px]">
       <MapContainer
         center={[34.756846, -90.068075]}
         zoom={5}
