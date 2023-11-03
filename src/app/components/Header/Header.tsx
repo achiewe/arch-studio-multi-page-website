@@ -50,24 +50,49 @@ export default function Header(): JSX.Element {
         }}
       />
       <div className="hidden md:flex flex-row items-center gap-[51px] lg:gap-[61px]">
-        <Link
-          href="/Portfolio"
-          className="text-[#7D828F] font-bold text-[18px] leading-[25px] cursor-pointer"
-        >
-          Portfolio
-        </Link>
-        <Link
-          href="/AboutUs"
-          className="text-[#7D828F] font-bold text-[18px] leading-[25px] cursor-pointer"
-        >
-          About Us
-        </Link>
-        <Link
-          href="/Contact"
-          className="text-[#7D828F] font-bold text-[18px] leading-[25px] cursor-pointer"
-        >
-          Contact
-        </Link>
+        <div className="flex flex-col relative justify-center items-center">
+          <Link
+            href="/Portfolio"
+            className="text-[#7D828F] font-bold text-[18px] leading-[25px] cursor-pointer hover:text-[#1B1D23] focus:text-[#1B1D23]"
+          >
+            Portfolio
+          </Link>
+          <hr
+            className={`w-[24px] h-[1px] border-none bg-[#1B1D23] ${
+              pathname === "/Portfolio" ? "flex" : "hidden"
+            }`}
+          />
+        </div>
+
+        <div className="flex flex-col relative justify-center items-center">
+          <Link
+            href="/AboutUs"
+            className="text-[#7D828F] font-bold text-[18px] leading-[25px] cursor-pointer hover:text-[#1B1D23] focus:text-[#1B1D23]"
+          >
+            About Us
+          </Link>
+          <hr
+            className={`w-[24px] h-[1px] border-none bg-[#1B1D23] ${
+              pathname === "/AboutUs" ? "flex" : "hidden"
+            }`}
+          />
+        </div>
+
+        <div className="flex flex-col relative justify-center items-center">
+          <Link
+            href="/Contact"
+            className={`font-bold text-[18px] leading-[25px] cursor-pointer hover:text-[#1B1D23] focus:text-[#1B1D23] ${
+              pathname === "/Contact" ? "text-[#1B1D23]" : "text-[#7D828F]"
+            } `}
+          >
+            Contact
+          </Link>
+          <hr
+            className={`w-[24px] h-[1px] border-none bg-[#1B1D23] ${
+              pathname === "/Contact" ? "flex" : "hidden"
+            }`}
+          />
+        </div>
       </div>
     </header>
   );
