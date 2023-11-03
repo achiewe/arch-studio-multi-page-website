@@ -29,7 +29,7 @@ export default function () {
     }
   }
   return (
-    <div className="mt-[55px] flex flex-col gap-[24px] px-[32px] w-full mb-[132px] md:mt-0 md:mb-[200px] md:px-0 justify-center items-center">
+    <div className="mt-[55px] flex flex-col gap-[24px] px-[32px] w-full mb-[132px] md:mt-0 md:mb-[200px] md:px-0 justify-center items-center lg:max-w-[1110px] lg:flex-row lg:flex-wrap">
       {PortfolioItems.PortfolioArray.map((item, id) => {
         const imgPath =
           currentDeviceType === "mobile"
@@ -40,7 +40,7 @@ export default function () {
         return (
           <div
             key={id}
-            className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-no-repeat bg-cover relative md:w-[573px] md:pl-[40px] md:pb-[39px]"
+            className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-no-repeat bg-cover relative md:w-[573px] md:pl-[40px] md:pb-[39px] lg:w-[350px] lg:h-[560px]"
             style={{ backgroundImage: `url(${imgPath})` }}
           >
             <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">

@@ -23,7 +23,6 @@ export const PortfolioItems: ProjectPorps = {
       id: 2,
       name: "Eebox Building",
       date: "August 2017",
-
       image: "/assets/portfolio/mobile/image-eebox.jpg",
       image1: "/assets/portfolio/tablet/image-eebox.jpg",
       image2: "/assets/portfolio/desktop/image-eebox.jpg",
@@ -76,6 +75,15 @@ export const PortfolioItems: ProjectPorps = {
 
     {
       id: 8,
+      name: "Netcry Tower",
+      date: "August 2012",
+      image: "/assets/portfolio/mobile/image-netcry.jpg",
+      image1: "/assets/portfolio/tablet/image-netcry.jpg",
+      image2: "/assets/portfolio/desltop/image-netcry.jpg",
+    },
+
+    {
+      id: 9,
       name: "Hypers",
       date: "January 2012",
       image: "/assets/portfolio/mobile/image-hypers.jpg",
