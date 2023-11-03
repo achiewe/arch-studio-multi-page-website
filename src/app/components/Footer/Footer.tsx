@@ -4,7 +4,7 @@ import Link from "next/link";
 //add footer component
 export default function Footer(): JSX.Element {
   return (
-    <footer className="bg-[#EEEFF4] w-full flex flex-col items-center gap-[33px] pb-[48px] md:flex-row md:pb-0 md:w-[79%] md:gap-[40px] md:relative">
+    <footer className="bg-[#EEEFF4] w-full flex flex-col items-center gap-[33px] pb-[48px] md:flex-row md:pb-0 md:w-[79%] md:gap-[40px] md:relative lg:w-[984px]">
       <img src={archSvg.src} alt="arch svg" className="mt-[-60px] md:mt-0" />
       <nav className="flex flex-col gap-[32px] items-center md:flex-row md:gap-[51px]">
         <Link

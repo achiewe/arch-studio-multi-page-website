@@ -13,4 +13,10 @@ body {
   min-height: 100vh;
   background-color: #fff;
   position: relative;
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
