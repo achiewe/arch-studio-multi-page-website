@@ -53,7 +53,9 @@ export default function Header(): JSX.Element {
         <div className="flex flex-col relative justify-center items-center">
           <Link
             href="/Portfolio"
-            className="text-[#7D828F] font-bold text-[18px] leading-[25px] cursor-pointer hover:text-[#1B1D23] focus:text-[#1B1D23]"
+            className={`font-bold text-[18px] leading-[25px] cursor-pointer hover:text-[#1B1D23] focus:text-[#1B1D23] ${
+              pathname === "/Portfolio" ? "text-[#1B1D23]" : "text-[#7D828F]"
+            } `}
           >
             Portfolio
           </Link>
@@ -67,7 +69,9 @@ export default function Header(): JSX.Element {
         <div className="flex flex-col relative justify-center items-center">
           <Link
             href="/AboutUs"
-            className="text-[#7D828F] font-bold text-[18px] leading-[25px] cursor-pointer hover:text-[#1B1D23] focus:text-[#1B1D23]"
+            className={`font-bold text-[18px] leading-[25px] cursor-pointer hover:text-[#1B1D23] focus:text-[#1B1D23] ${
+              pathname === "/AboutUs" ? "text-[#1B1D23]" : "text-[#7D828F]"
+            } `}
           >
             About Us
           </Link>
