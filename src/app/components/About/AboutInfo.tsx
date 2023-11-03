@@ -1,7 +1,7 @@
 export default function AboutInfo() {
   return (
     <div className="w-full flex flex-col gap-[20px] mb-[76px] md:relative md:justify-center md:items-center md:mb-[200px]">
-      <div className="w-full h-[240px] flex items-end justify-start bg-imageHeroMob bg-no-repeat bg-cover relative md:bg-imageHeroTab md:w-[573px] md:h-[720px]">
+      <div className="w-full h-[240px] flex items-end justify-start bg-imageHeroMob bg-no-repeat bg-cover relative md:bg-imageHeroTab md:w-[573px] md:h-[720px] lg:w-[635px] lg:h-[720px] lg:bg-imageHeroDesk">
         <div className="w-full h-full bg-black opacity-50 top-0 left-0 right-0 bottom-0 absolute"></div>
         <div className="w-[345px] h-[45px] bg-[#FFFFFF] z-10 flex md:hidden "></div>
       </div>
