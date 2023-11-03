@@ -32,7 +32,7 @@ export default function Footer(): JSX.Element {
       </nav>
       <Link
         href="/Portfolio"
-        className="w-[252px] h-[72px] bg-[#1B1D23] pt-[25px] pb-[22px] pl-[37px] pr-[32px] flex items-center gap-[24px] md:absolute md:right-[-25.5%] lg:right-[-15%] lg:max-w-[252px]"
+        className="w-[252px] h-[72px] bg-[#1B1D23] pt-[25px] pb-[22px] pl-[37px] pr-[32px] flex items-center gap-[24px] md:absolute md:right-[-25.5%] lg:right-[-13%] lg:max-w-[252px]"
       >
         <h3 className="text-[#fff] font-bold text-[18px] leading-[25px] cursor-pointer ">
           See Our Portfolio
