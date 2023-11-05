@@ -1,3 +1,5 @@
+// about info function
+
 export default function AboutInfo() {
   return (
     <div className="w-full flex flex-col gap-[20px] mb-[76px] md:justify-center md:items-center md:mb-[200px] lg:pl-[165px]">
