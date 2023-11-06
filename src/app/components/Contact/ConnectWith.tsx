@@ -5,6 +5,8 @@ import { userSchema } from "./EmailModule";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
+//interface of inputs
+
 interface TypeEmailMessage {
   name: string;
   email: string;
