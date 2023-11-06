@@ -5,16 +5,16 @@ import SimsonSvg from "../../../../public/assets/about/desktop/avatar-maria.jpg"
 
 export default function Leaders() {
   return (
-    <div className="w-full flex flex-col px-[32px] gap-[55px] mb-[171px] md:px-0 md:gap-[49px] md:w-[573px] md:mb-[239px]">
+    <div className="w-full flex flex-col px-[32px] gap-[55px] mb-[171px] md:px-0 md:gap-[49px] md:w-[573px] md:mb-[239px] lg:flex-row lg:w-[1110px] lg:items-start lg:gap-0 lg:justify-between">
       <h2 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] w-[220px] md:text-[72px] md:leading-[64px] md:tracking-[-2px] md:w-[300px]">
         The Leaders
       </h2>
-      <div className="w-full flex flex-col gap-[79px] md:flex-row md:flex-wrap md:gap-x-[12px] md:gap-y-[103px]">
-        <div className="flex flex-col gap-[15px] w-[full]">
+      <div className="w-full flex flex-col gap-[79px] md:flex-row md:flex-wrap md:gap-x-[12px] md:gap-y-[103px] lg:max-w-[730px] lg:justify-end lg:gap-y-[63px] lg:gap-x-[30px]">
+        <div className="flex flex-col gap-[15px]">
           <img
             src={JakeSvg.src}
             alt="Jake svg"
-            className="md:w-[280px] md:h-[256px]"
+            className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px]"
           />
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Jake Richards
@@ -28,7 +28,7 @@ export default function Leaders() {
           <img
             src={SmithSvg.src}
             alt="Jake svg"
-            className="md:w-[280px] md:h-[256px]"
+            className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px]"
           />
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Thompson Smith
@@ -42,7 +42,7 @@ export default function Leaders() {
           <img
             src={JacksonSvg.src}
             alt="Jake svg"
-            className="md:w-[280px] md:h-[256px]"
+            className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px]"
           />
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Jackson Rourke
@@ -56,7 +56,7 @@ export default function Leaders() {
           <img
             src={SimsonSvg.src}
             alt="Jake svg"
-            className="md:w-[280px] md:h-[256px]"
+            className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px]"
           />
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Maria Simpson
