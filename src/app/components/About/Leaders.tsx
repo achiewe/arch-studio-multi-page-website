@@ -5,7 +5,7 @@ import SimsonSvg from "../../../../public/assets/about/desktop/avatar-maria.jpg"
 
 export default function Leaders() {
   return (
-    <div className="w-full flex flex-col px-[32px] gap-[55px] mb-[171px] md:px-0 md:gap-[49px] md:w-[573px] md:mb-[239px] lg:flex-row lg:w-[1110px] lg:items-start lg:gap-0 lg:justify-between">
+    <div className="w-full flex flex-col px-[32px] gap-[55px] mb-[171px] md:px-0 md:gap-[49px] md:w-[573px] md:mb-[239px] lg:flex-row lg:w-[1110px] lg:items-start lg:gap-0 lg:justify-between lg">
       <h2 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] w-[220px] md:text-[72px] md:leading-[64px] md:tracking-[-2px] md:w-[300px]">
         The Leaders
       </h2>
