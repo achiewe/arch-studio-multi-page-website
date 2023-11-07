@@ -16,8 +16,8 @@ export default function FeaturedComp() {
           <img src={arrowSvg.src} alt="arrow svg" />
         </Link>
       </div>
-      <div className="w-full flex flex-col gap-[24px] items-center justify-center">
-        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-DelSolMob bg-no-repeat bg-cover relative md:bg-DelSolTab">
+      <div className="w-full flex flex-col gap-[24px] items-center justify-center lg:flex-row lg:gap-[30px]">
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-DelSolMob bg-no-repeat bg-cover relative md:bg-DelSolTab lg:h-[560px] lg:bg-DelSolDesk">
           <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
             Project Del Sol
           </h2>
