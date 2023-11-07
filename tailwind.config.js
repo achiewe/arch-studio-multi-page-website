@@ -8,6 +8,7 @@ module.exports = {
         ParamourTab: "url('/assets/home/tablet/image-hero-paramour.jpg')",
         SmallTeamMob: "url('/assets/home/mobile/image-small-team.jpg')",
         SmallTeamTab: "url('/assets/home/tablet/image-small-team.jpg')",
+        SmallTeamDesk: "url('/assets/home/desktop/image-small-team.jpg')",
         DelSolMob: "url('/assets/portfolio/mobile/image-del-sol.jpg')",
         DelSolTab: "url('/assets/portfolio/tablet/image-del-sol.jpg')",
         TowerMob: "url('/assets/portfolio/mobile/image-228b.jpg')",
