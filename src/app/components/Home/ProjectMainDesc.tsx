@@ -2,7 +2,7 @@ import welcomeoImg from "../../../../public/assets/home/desktop/image-welcome.jp
 
 export default function ProjectMainDesc(): JSX.Element {
   return (
-    <div className="w-full flex flex-col gap-[22px] px-[32px] items-start mb-[113px] relative md:gap-[43px] md:w-[572px] md:px-0 md:mb-[233px]">
+    <div className="w-full flex flex-col gap-[22px] px-[32px] items-start mb-[113px] relative md:gap-[43px] md:w-[572px] md:px-0 md:mb-[233px] lg:flex-row lg:max-w-[1110px] lg:items-start lg:gap-0">
       <h3 className="hidden md:flex absolute top-[-150px] w-[581px] text-[120px] font-bold text-[#EEEFF4] leading-[200px] tracking-[-3px]">
         Welcome
       </h3>
@@ -10,7 +10,7 @@ export default function ProjectMainDesc(): JSX.Element {
         <h1 className="text-[48px] font-bold text-[#1B1D23] leading-[52px] tracking-[-1.714px] md:text-[72px] md:leading-[64px] md:tracking-[-2px] md:w-[446px]">
           Welcome to Arch Studio
         </h1>
-        <div className="flex flex-col gap-[22px] md:w-[572px]">
+        <div className="flex flex-col gap-[22px] md:w-[572px] lg:w-[445px]">
           <p className="text-[18px] font-medium text-[#60636D] leading-[24px]">
             We have a unique network and skillset to help bring your projects to
             life. Our small team of highly skilled individuals combined with our
