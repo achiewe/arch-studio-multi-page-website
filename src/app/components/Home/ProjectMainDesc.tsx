@@ -1,3 +1,5 @@
+import welcomeoImg from "../../../../public/assets/home/desktop/image-welcome.jpg";
+
 export default function ProjectMainDesc(): JSX.Element {
   return (
     <div className="w-full flex flex-col gap-[22px] px-[32px] items-start mb-[113px] relative md:gap-[43px] md:w-[572px] md:px-0 md:mb-[233px]">
@@ -28,6 +30,11 @@ export default function ProjectMainDesc(): JSX.Element {
           </p>
         </div>
       </div>
+      <img
+        src={welcomeoImg.src}
+        alt="welcome image"
+        className="hidden lg:flex "
+      />
     </div>
   );
 }
