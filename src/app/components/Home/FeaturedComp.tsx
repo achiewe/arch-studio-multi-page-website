@@ -28,7 +28,7 @@ export default function FeaturedComp() {
             View All Projects
           </Link>
           <div className="w-full h-full bg-black opacity-50 top-0 left-0 right-0 bottom-0 absolute"></div>
-          <h3 className="hidden md:flex absolute opacity-50 text-[250px] tracking-[-5px] leading-[200px] text-[#FFFFFF] right-[16px] top-[28px]">
+          <h3 className="hidden md:flex absolute opacity-50 text-[250px] tracking-[-5px] leading-[200px] text-[#FFFFFF] right-[16px] top-[28px] lg:right-[-15px] lg:top-[45px]">
             1
           </h3>
         </div>
@@ -44,7 +44,7 @@ export default function FeaturedComp() {
             View All Projects
           </Link>
           <div className="w-full h-full bg-black opacity-50 top-0 left-0 right-0 bottom-0 absolute"></div>
-          <h3 className="hidden md:flex absolute opacity-50 text-[250px] tracking-[-5px] leading-[200px] text-[#FFFFFF] right-[16px] top-[28px]">
+          <h3 className="hidden md:flex absolute opacity-50 text-[250px] tracking-[-5px] leading-[200px] text-[#FFFFFF] right-[16px] top-[28px] lg:right-[-15px] lg:top-[45px]">
             2
           </h3>
         </div>
@@ -60,7 +60,7 @@ export default function FeaturedComp() {
             View All Projects
           </Link>
           <div className="w-full h-full bg-black opacity-50 top-0 left-0 right-0 bottom-0 absolute"></div>
-          <h3 className="hidden md:flex absolute opacity-50 text-[250px] tracking-[-5px] leading-[200px] text-[#FFFFFF] right-[16px] top-[28px]">
+          <h3 className="hidden md:flex absolute opacity-50 text-[250px] tracking-[-5px] leading-[200px] text-[#FFFFFF] right-[16px] top-[28px] lg:right-[-20px] lg:top-[45px]">
             3
           </h3>
         </div>
