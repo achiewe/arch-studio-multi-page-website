@@ -33,7 +33,7 @@ export default function FeaturedComp() {
           </h3>
         </div>
 
-        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-TowerMob bg-no-repeat bg-cover relative md:bg-TowerTab">
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-TowerMob bg-no-repeat bg-cover relative md:bg-TowerTab lg:h-[560px] lg:bg-TowerDesk">
           <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
             228B Tower
           </h2>
@@ -49,7 +49,7 @@ export default function FeaturedComp() {
           </h3>
         </div>
 
-        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-LePrototypeMob bg-no-repeat bg-cover relative md:bg-LePrototypeTab">
+        <div className="w-full h-[240px] pl-[24px] pb-[23px] flex flex-col justify-end bg-LePrototypeMob bg-no-repeat bg-cover relative md:bg-LePrototypeTab lg:h-[560px] lg:bg-LePrototypeDesk">
           <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
             Le Prototype
           </h2>

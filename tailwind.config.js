@@ -17,6 +17,7 @@ module.exports = {
         TowerDesk: "url('/assets/portfolio/desktop/image-228b.jpg')",
         LePrototypeMob: "url('/assets/portfolio/mobile/image-prototype.jpg')",
         LePrototypeTab: "url('/assets/portfolio/tablet/image-prototype.jpg')",
+        LePrototypeDesk: "url('/assets/portfolio/desktop/image-prototype.jpg')",
         imageHeroMob: "url('/assets/about/mobile/image-hero.jpg')",
         imageHeroTab: "url('/assets/about/tablet/image-hero.jpg')",
         imageHeroDesk: "url('/assets/about/desktop/image-hero.jpg')",
