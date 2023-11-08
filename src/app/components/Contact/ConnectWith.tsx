@@ -39,7 +39,7 @@ export default function ConnectWith() {
             type="text"
             placeholder="Name"
             {...register("name")}
-            className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal 
+            className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal
             } tracking-[ -0.312px] opacity-50 ${
               errors.name ? "placeholder-[#DF5656]" : "placeholder-[#C8CCD8]}"
             } outline-none`}

@@ -30,7 +30,7 @@ export default function ContactDetails() {
           <a
             href="https://www.google.com/maps/d/u/0/edit?hl=ka&hl=ka&mid=1Hgtk7qgV72Wb_UTDGQW0uOFXD4dK3jQ&ll=27.69884242157973%2C-87.30593082193158&z=5"
             target="_blank"
-            className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] cursor-pointer w-[200px]"
+            className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] cursor-pointer w-[200px] hover:underline"
           >
             View on Map <img src={ArrowSvg.src} alt="arrow svg" />
           </a>
@@ -56,7 +56,7 @@ export default function ContactDetails() {
           <a
             href="https://www.google.com/maps/d/u/0/edit?hl=ka&hl=ka&mid=1Hgtk7qgV72Wb_UTDGQW0uOFXD4dK3jQ&ll=27.69884242157973%2C-87.30593082193158&z=5"
             target="_blank"
-            className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] cursor-pointer w-[200px]"
+            className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] cursor-pointer w-[200px] hover:underline"
           >
             View on Map <img src={ArrowSvg.src} alt="arrow svg" />
           </a>
