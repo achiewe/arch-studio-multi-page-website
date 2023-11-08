@@ -13,26 +13,26 @@ export default function Footer(): JSX.Element {
       <nav className="flex flex-col gap-[32px] items-center md:flex-row md:gap-[51px]">
         <Link
           href="/Portfolio"
-          className="text-[#7D828F] font-bold text-[18px] leading-[25px]"
+          className="text-[#7D828F] font-bold text-[18px] leading-[25px] hover:text-[#1B1D23]"
         >
           Portfolio
         </Link>
         <Link
           href="/AboutUs"
-          className="text-[#7D828F] font-bold text-[18px] leading-[25px]"
+          className="text-[#7D828F] font-bold text-[18px] leading-[25px] hover:text-[#1B1D23]"
         >
           About Us
         </Link>
         <Link
           href="/Contact"
-          className="text-[#7D828F] font-bold text-[18px] leading-[25px]"
+          className="text-[#7D828F] font-bold text-[18px] leading-[25px] hover:text-[#1B1D23]"
         >
           Contact
         </Link>
       </nav>
       <Link
         href="/Portfolio"
-        className="w-[252px] h-[72px] bg-[#1B1D23] pt-[25px] pb-[22px] pl-[37px] pr-[32px] flex items-center gap-[24px] md:absolute md:right-[-25.5%] lg:right-[-13%] lg:max-w-[252px]"
+        className="w-[252px] h-[72px] bg-[#1B1D23] pt-[25px] pb-[22px] pl-[37px] pr-[32px] flex items-center gap-[24px] md:absolute md:right-[-25.5%] lg:right-[-13%] lg:max-w-[252px] hover:bg-[#60636D]"
       >
         <h3 className="text-[#fff] font-bold text-[18px] leading-[25px] cursor-pointer ">
           See Our Portfolio
