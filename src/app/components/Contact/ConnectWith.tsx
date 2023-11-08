@@ -95,7 +95,7 @@ export default function ConnectWith() {
           </div>
           <button
             type="submit"
-            className="w-[80px] h-[80px] bg-[#1B1D23] flex justify-center items-center cursor-pointer"
+            className="w-[80px] h-[80px] bg-[#1B1D23] flex justify-center items-center cursor-pointer hover:bg-[#60636D]"
           >
             <img src={arrowSvg.src} />
           </button>
