@@ -28,8 +28,9 @@ export default function Leaders() {
           <img
             src={SmithSvg.src}
             alt="Jake svg"
-            className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px]"
+            className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px] relative"
           />
+          <div className="hidden hover:flex absolute w-[311px] h-[284px] bg-[#000000] opacity-50 justify-center items-center"></div>
           <h3 className="text-[32px] text-[#1B1D23] font-bold leading-[40px] flex flex-col">
             Thompson Smith
             <span className="text-[18px] text-[#1B1D23] font-medium leading-[24px] opacity-75">
