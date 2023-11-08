@@ -10,7 +10,7 @@ export default function FeaturedComp() {
         </h1>
         <Link
           href="/Portfolio"
-          className=" hidden md:flex flex-row items-center justify-center gap-[24px] w-[169px] h-[72px] bg-[#1B1D23] text-[#FFF] text-[18px] leading-[25px] font-bold"
+          className=" hidden md:flex flex-row items-center justify-center gap-[24px] w-[169px] h-[72px] bg-[#1B1D23] text-[#FFF] text-[18px] leading-[25px] font-bold hover:bg-[#60636D]"
         >
           See All
           <img src={arrowSvg.src} alt="arrow svg" />

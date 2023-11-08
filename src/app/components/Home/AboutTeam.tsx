@@ -10,7 +10,7 @@ export default function AboutTeam() {
       </h1>
       <Link
         href="/AboutUs"
-        className="w-[187px] cursor-pointer h-[72px] flex justify-center items-center gap-[24px] bg-[#1B1D23] text-[#FFFFFF] text-[18px] font-bold leading-[25px] z-10"
+        className="w-[187px] cursor-pointer h-[72px] flex justify-center items-center gap-[24px] bg-[#1B1D23] text-[#FFFFFF] text-[18px] font-bold leading-[25px] z-10 hover:bg-[#60636D]"
       >
         About Us
         <img src={arrowWhiteSvg.src} alt="arrow svg" />
