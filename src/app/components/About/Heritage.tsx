@@ -1,5 +1,7 @@
 import heritageSvg from "../../../../public/assets/about/desktop/image-heritage.jpg";
 
+// hertiage component for about rout
+
 export default function Heritage() {
   return (
     <div className="flex flex-col w-full px-[32px] items-start gap-[68px] mb-[112px] md:gap-[49px] md:w-[573px] md:px-0 md:items-start md:justify-center md:mb-[231px] lg:w-[1110px] lg:flex-row lg:items-start lg:justify-between lg:mb-[200px]">
