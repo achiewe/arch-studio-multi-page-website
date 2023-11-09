@@ -3,6 +3,7 @@ import SmithSvg from "../../../../public/assets/about/desktop/avatar-thompson.jp
 import JacksonSvg from "../../../../public/assets/about/desktop/avatar-jackson.jpg";
 import SimsonSvg from "../../../../public/assets/about/desktop/avatar-maria.jpg";
 
+// leaders component
 export default function Leaders() {
   return (
     <div className="w-full flex flex-col px-[32px] gap-[55px] mb-[171px] md:px-0 md:gap-[49px] md:w-[573px] md:mb-[239px] lg:flex-row lg:w-[1110px] lg:items-start lg:gap-0 lg:justify-between lg">
