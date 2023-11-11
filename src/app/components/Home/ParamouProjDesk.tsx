@@ -26,7 +26,8 @@ export default function ParamouProjDesk() {
     };
     setProject(filterProj());
   }, [itemNum]);
-  console.log(project, "mevar");
+
+  console.log(itemNum, "masdasdasd");
 
   return (
     <div
@@ -51,7 +52,11 @@ export default function ParamouProjDesk() {
       <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
       <div className="absolute w-[320px] flex flex-row items-center z-20 left-[-80px] bottom-0">
         <button
-          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer hover:bg-[#EEEFF4] focus:bg-[#1B1D23] focus:text-[#FFFFFF]"
+          className={`flex items-center justify-center  w-[80px] h-[80px] cursor-pointer hover:bg-[#EEEFF4] focus:bg-[#1B1D23] focus:text-[#FFFFFF] ${
+            itemNum === "01"
+              ? "bg-[#1B1D23] text-[#FFFFFF]"
+              : "bg-[#FFFFFF] text-[#7D828F]"
+          }`}
           value={"01"}
           onClick={() => {
             setItemNum("01");
