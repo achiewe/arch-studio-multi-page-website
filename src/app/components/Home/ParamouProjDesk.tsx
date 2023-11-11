@@ -38,8 +38,7 @@ export default function ParamouProjDesk() {
           {project[0].name}
         </h1>
         <p className="text-[18px] text-[#FFF] font-medium leading-[24px] z-10 lg:w-[445px]">
-          Project made for an art museum near Southwest London. Project Paramour
-          is a statement of bold, modern architecture.
+          {project[0].description}
         </p>
       </div>
       <Link
