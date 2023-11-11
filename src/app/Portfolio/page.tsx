@@ -1,45 +1,33 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import { PortfolioItems } from "./PortfolioData";
 
 export default function PortfComp() {
-  const [currentDeviceType, updateDeviceType] = useState("desktop");
+  const [currentDeviceType, updateDeviceType] = useState(detectDeviceType());
 
   useEffect(() => {
-    function detectDeviceType() {
-      const isWindowAvailable = typeof window !== "undefined";
-
-      if (isWindowAvailable) {
-        const windowWidth = window.innerWidth;
-
-        if (windowWidth <= 768) {
-          return "mobile";
-        } else if (windowWidth <= 1024) {
-          return "tablet";
-        } else {
-          return "desktop";
-        }
-      }
-
-      return "desktop"; // Default value for server-side rendering
-    }
-
     function handleWindowResize() {
       updateDeviceType(detectDeviceType());
     }
 
-    const isWindowAvailable = typeof window !== "undefined";
+    window.addEventListener("resize", handleWindowResize);
 
-    if (isWindowAvailable) {
-      window.addEventListener("resize", handleWindowResize);
-
-      return () => {
-        window.removeEventListener("resize", handleWindowResize);
-      };
-    }
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
   }, []);
 
+  function detectDeviceType() {
+    const windowWidth = window.innerWidth;
+
+    if (windowWidth <= 768) {
+      return "mobile";
+    } else if (windowWidth <= 1024) {
+      return "tablet";
+    } else {
+      return "desktop";
+    }
+  }
   return (
     <div className="mt-[55px] flex flex-col gap-[24px] px-[32px] w-full mb-[132px] md:mt-0 md:mb-[200px] md:px-0 justify-center items-center lg:max-w-[1110px] lg:flex-row lg:flex-wrap lg:gap-x-[30px] lg:gap-y-[32px]">
       {PortfolioItems.PortfolioArray.map((item, id) => {
