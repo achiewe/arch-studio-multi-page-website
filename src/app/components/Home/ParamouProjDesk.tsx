@@ -51,7 +51,7 @@ export default function ParamouProjDesk() {
       <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
       <div className="absolute w-[320px] flex flex-row items-center z-20 left-[-80px] bottom-0">
         <button
-          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer"
+          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer hover:bg-[#EEEFF4]"
           value={"01"}
           onClick={() => {
             setItemNum("01");
@@ -60,7 +60,7 @@ export default function ParamouProjDesk() {
           01
         </button>
         <button
-          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer"
+          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer hover:bg-[#EEEFF4]"
           value={"02"}
           onClick={() => {
             setItemNum("02");
@@ -69,7 +69,7 @@ export default function ParamouProjDesk() {
           02
         </button>
         <button
-          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer"
+          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer hover:bg-[#EEEFF4]"
           value={"03"}
           onClick={() => {
             setItemNum("03");
@@ -78,7 +78,7 @@ export default function ParamouProjDesk() {
           03
         </button>
         <button
-          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer"
+          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer hover:bg-[#EEEFF4]"
           value={"04"}
           onClick={() => {
             setItemNum("04");
