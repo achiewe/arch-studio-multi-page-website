@@ -8,7 +8,9 @@ export default function PortfComp() {
 
   useEffect(() => {
     function detectDeviceType() {
-      if (typeof window !== "undefined") {
+      const isWindowAvailable = typeof window !== "undefined";
+
+      if (isWindowAvailable) {
         const windowWidth = window.innerWidth;
 
         if (windowWidth <= 768) {
@@ -19,15 +21,17 @@ export default function PortfComp() {
           return "desktop";
         }
       }
-      // Return a default value to avoid server-side rendering errors
-      return "desktop";
+
+      return "desktop"; // Default value for server-side rendering
     }
 
     function handleWindowResize() {
       updateDeviceType(detectDeviceType());
     }
 
-    if (typeof window !== "undefined") {
+    const isWindowAvailable = typeof window !== "undefined";
+
+    if (isWindowAvailable) {
       window.addEventListener("resize", handleWindowResize);
 
       return () => {
