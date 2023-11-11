@@ -1,4 +1,4 @@
-interface MainProj {
+export interface MainProj {
   PortfolioArray: {
     name: string;
     description: string;

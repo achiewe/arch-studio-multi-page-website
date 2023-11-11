@@ -5,13 +5,26 @@ import arrowWhiteSvg from "../../../../public/assets/icons/icon-white-arrow.svg"
 import { useEffect, useState } from "react";
 import { MainProjItem } from "./PramouDeskData";
 
+interface ItemProps {
+  name: string;
+  description: string;
+  image: string;
+  id: string;
+}
+
 export default function ParamouProjDesk() {
+  const firstItem = MainProjItem.PortfolioArray.filter(
+    (item) => item.id === "01"
+  );
+
   const [itemNum, setItemNum] = useState<string>("01");
-  let project;
+  const [project, setProject] = useState<ItemProps[]>(firstItem);
 
   useEffect(() => {
-    console.log(MainProjItem.PortfolioArray[0].id === itemNum);
-    project = MainProjItem.PortfolioArray.filter((item) => item.id === itemNum);
+    const filterProj = () => {
+      return MainProjItem.PortfolioArray.filter((item) => item.id === itemNum);
+    };
+    setProject(filterProj());
   }, [itemNum]);
   console.log(project, "mevar");
 
