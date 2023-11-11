@@ -2,6 +2,7 @@ import JakeSvg from "../../../../public/assets/about/desktop/avatar-jake.jpg";
 import SmithSvg from "../../../../public/assets/about/desktop/avatar-thompson.jpg";
 import JacksonSvg from "../../../../public/assets/about/desktop/avatar-jackson.jpg";
 import SimsonSvg from "../../../../public/assets/about/desktop/avatar-maria.jpg";
+import Image from "next/image";
 
 // leaders component
 export default function Leaders() {
@@ -12,8 +13,8 @@ export default function Leaders() {
       </h2>
       <div className="w-full flex flex-col gap-[79px] md:flex-row md:flex-wrap md:gap-x-[12px] md:gap-y-[103px] lg:max-w-[730px] lg:justify-end lg:gap-y-[63px] lg:gap-x-[30px]">
         <div className="flex flex-col gap-[15px]">
-          <img
-            src={JakeSvg.src}
+          <Image
+            src={JakeSvg}
             alt="Jake svg"
             className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px]"
           />
@@ -26,8 +27,8 @@ export default function Leaders() {
         </div>
 
         <div className="flex flex-col gap-[15px] w-[full]">
-          <img
-            src={SmithSvg.src}
+          <Image
+            src={SmithSvg}
             alt="Jake svg"
             className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px] relative"
           />
@@ -41,8 +42,8 @@ export default function Leaders() {
         </div>
 
         <div className="flex flex-col gap-[15px] w-[full]">
-          <img
-            src={JacksonSvg.src}
+          <Image
+            src={JacksonSvg}
             alt="Jake svg"
             className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px]"
           />
@@ -55,8 +56,8 @@ export default function Leaders() {
         </div>
 
         <div className="flex flex-col gap-[15px] w-[full]">
-          <img
-            src={SimsonSvg.src}
+          <Image
+            src={SimsonSvg}
             alt="Jake svg"
             className="md:w-[280px] md:h-[256px] lg:w-[350px] lg:h-[320px]"
           />

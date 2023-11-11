@@ -1,4 +1,5 @@
 import heritageSvg from "../../../../public/assets/about/desktop/image-heritage.jpg";
+import Image from "next/image";
 
 // hertiage component for about rout
 
@@ -32,11 +33,7 @@ export default function Heritage() {
           </div>
         </div>
       </div>
-      <img
-        src={heritageSvg.src}
-        alt="heritage svg"
-        className="hidden lg:flex"
-      />
+      <Image src={heritageSvg} alt="heritage svg" className="hidden lg:flex" />
     </div>
   );
 }
