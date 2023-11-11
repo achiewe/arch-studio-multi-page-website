@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import { setOpenFrame } from "@/features/OpenBurgerSlice";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 export default function Header(): JSX.Element {
@@ -38,15 +39,15 @@ export default function Header(): JSX.Element {
             : "Default Value"}
         </h4>
       </div>
-      <img
-        src={logoSvg.src}
+      <Image
+        src={logoSvg}
         onClick={handleOnSvg}
         alt="logo svg"
         className="w-[77px] h-[32.028px] cursor-pointer md:w-[96px] md:h-[40px]"
       />
-      <img
+      <Image
         className="cursor-pointer md:hidden"
-        src={burgerSvg.src}
+        src={burgerSvg}
         alt="burger svg"
         onClick={() => {
           dispatch(setOpenFrame());

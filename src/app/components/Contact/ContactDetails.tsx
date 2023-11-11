@@ -1,4 +1,5 @@
 import ArrowSvg from "../../../../public/assets/icons/icon-arrow.svg";
+import Image from "next/image";
 
 export default function ContactDetails() {
   return (
@@ -32,7 +33,7 @@ export default function ContactDetails() {
             target="_blank"
             className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] cursor-pointer w-[200px] hover:underline"
           >
-            View on Map <img src={ArrowSvg.src} alt="arrow svg" />
+            View on Map <Image src={ArrowSvg} alt="arrow svg" />
           </a>
         </div>
 
@@ -58,7 +59,7 @@ export default function ContactDetails() {
             target="_blank"
             className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] cursor-pointer w-[200px] hover:underline"
           >
-            View on Map <img src={ArrowSvg.src} alt="arrow svg" />
+            View on Map <Image src={ArrowSvg} alt="arrow svg" />
           </a>
         </div>
       </div>
