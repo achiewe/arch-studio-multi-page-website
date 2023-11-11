@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { PortfolioItems } from "./PortfolioData";
 
-export default function () {
+export default function PortfComp() {
   const [currentDeviceType, updateDeviceType] = useState(detectDeviceType());
 
   useEffect(() => {

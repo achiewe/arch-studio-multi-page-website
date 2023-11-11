@@ -3,7 +3,7 @@ import ConnectWith from "../components/Contact/ConnectWith";
 import ContactDetails from "../components/Contact/ContactDetails";
 import OfficeLocation from "../components/Contact/OfficeLocation";
 
-export default function () {
+export default function ContactComp() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       <AboutProj />
