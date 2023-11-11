@@ -1,7 +1,20 @@
+"use client";
+
 import Link from "next/link";
 import arrowWhiteSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
+import { useEffect, useState } from "react";
+import { MainProjItem } from "./PramouDeskData";
 
 export default function ParamouProjDesk() {
+  const [itemNum, setItemNum] = useState<string>("01");
+  let project;
+
+  useEffect(() => {
+    console.log(MainProjItem.PortfolioArray[0].id === itemNum);
+    project = MainProjItem.PortfolioArray.filter((item) => item.id === itemNum);
+  }, [itemNum]);
+  console.log(project, "mevar");
+
   return (
     <div className="w-full h-[560px] flex bg-no-repeat bg-cover px-[32px] justify-center items-start flex-col gap-[83px] relative bg-PraramourMob mb-[141px] md:w-[573px] md:h-[720px] md:bg-ParamourTab md:px-[58px] md:gap-[41px] md:mb-[248px] lg:w-[1110px] lg:px-[190px]">
       <div className="w-full flex flex-col gap-[11px] items-start md:gap-[10px]">
@@ -22,16 +35,40 @@ export default function ParamouProjDesk() {
       </Link>
       <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
       <div className="absolute w-[320px] flex flex-row items-center z-20 left-[-80px] bottom-0">
-        <button className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer">
+        <button
+          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer"
+          value={"01"}
+          onClick={() => {
+            setItemNum("01");
+          }}
+        >
           01
         </button>
-        <button className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer">
+        <button
+          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer"
+          value={"02"}
+          onClick={() => {
+            setItemNum("02");
+          }}
+        >
           02
         </button>
-        <button className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer">
+        <button
+          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer"
+          value={"03"}
+          onClick={() => {
+            setItemNum("03");
+          }}
+        >
           03
         </button>
-        <button className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer">
+        <button
+          className="flex items-center justify-center bg-[#FFFFFF] text-[#7D828F] w-[80px] h-[80px] cursor-pointer"
+          value={"04"}
+          onClick={() => {
+            setItemNum("04");
+          }}
+        >
           04
         </button>
       </div>
