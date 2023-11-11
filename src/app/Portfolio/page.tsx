@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useState } from "react";
 import { PortfolioItems } from "./PortfolioData";
 
@@ -19,8 +17,8 @@ export default function PortfComp() {
           return "desktop";
         }
       }
-      // Return a default value for server-side rendering
-      return "server"; // Or any value that signifies server-side rendering
+      // Return a default value to avoid server-side rendering errors
+      return "desktop";
     }
 
     function handleWindowResize() {
