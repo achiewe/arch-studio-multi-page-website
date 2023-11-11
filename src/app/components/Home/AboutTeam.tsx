@@ -1,5 +1,6 @@
 import Link from "next/link";
 import arrowWhiteSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
+import Image from "next/image";
 
 export default function AboutTeam() {
   return (
@@ -13,7 +14,7 @@ export default function AboutTeam() {
         className="w-[187px] cursor-pointer h-[72px] flex justify-center items-center gap-[24px] bg-[#1B1D23] text-[#FFFFFF] text-[18px] font-bold leading-[25px] z-10 hover:bg-[#60636D]"
       >
         About Us
-        <img src={arrowWhiteSvg.src} alt="arrow svg" />
+        <Image src={arrowWhiteSvg} alt="arrow svg" />
       </Link>
     </div>
   );

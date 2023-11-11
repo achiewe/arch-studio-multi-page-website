@@ -1,4 +1,5 @@
 import welcomeoImg from "../../../../public/assets/home/desktop/image-welcome.jpg";
+import Image from "next/image";
 
 export default function ProjectMainDesc(): JSX.Element {
   return (
@@ -30,8 +31,8 @@ export default function ProjectMainDesc(): JSX.Element {
           </p>
         </div>
       </div>
-      <img
-        src={welcomeoImg.src}
+      <Image
+        src={welcomeoImg}
         alt="welcome image"
         className="hidden lg:flex "
       />

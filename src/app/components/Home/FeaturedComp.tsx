@@ -1,5 +1,6 @@
 import Link from "next/link";
 import arrowSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
+import Image from "next/image";
 
 export default function FeaturedComp() {
   return (
@@ -13,7 +14,7 @@ export default function FeaturedComp() {
           className=" hidden md:flex flex-row items-center justify-center gap-[24px] w-[169px] h-[72px] bg-[#1B1D23] text-[#FFF] text-[18px] leading-[25px] font-bold hover:bg-[#60636D]"
         >
           See All
-          <img src={arrowSvg.src} alt="arrow svg" />
+          <Image src={arrowSvg} alt="arrow svg" />
         </Link>
       </div>
       <div className="w-full flex flex-col gap-[24px] items-center justify-center lg:flex-row lg:gap-[30px]">
