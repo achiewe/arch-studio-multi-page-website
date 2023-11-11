@@ -20,7 +20,7 @@ export default function ProjectParamourInfo(): JSX.Element {
         className="w-[252px] cursor-pointer h-[72px] flex justify-center items-center gap-[24px] bg-[#1B1D23] text-[#FFFFFF] text-[18px] font-bold leading-[25px] z-10 hover:bg-[#60636D]"
       >
         See Our Portfolio
-        <Image src={arrowWhiteSvg.src} alt="arrow svg" />
+        <Image src={arrowWhiteSvg} alt="arrow svg" />
       </Link>
       <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
     </div>
