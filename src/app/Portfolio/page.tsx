@@ -8,15 +8,19 @@ export default function PortfComp() {
 
   useEffect(() => {
     function detectDeviceType() {
-      const windowWidth = window.innerWidth;
+      if (typeof window !== "undefined") {
+        const windowWidth = window.innerWidth;
 
-      if (windowWidth <= 768) {
-        return "mobile";
-      } else if (windowWidth <= 1024) {
-        return "tablet";
-      } else {
-        return "desktop";
+        if (windowWidth <= 768) {
+          return "mobile";
+        } else if (windowWidth <= 1024) {
+          return "tablet";
+        } else {
+          return "desktop";
+        }
       }
+      // Return a default value for server-side rendering
+      return "server"; // Or any value that signifies server-side rendering
     }
 
     function handleWindowResize() {
