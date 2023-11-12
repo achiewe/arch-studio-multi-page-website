@@ -52,7 +52,7 @@ export default function PortfComp() {
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
-            className={`hidden md:hidden lg:flex w-full h-[240px] pl-[24px] pb-[23px] flex-col justify-end bg-no-repeat bg-cover relative md:w-[573px] md:pl-[40px] md:pb-[39px] lg:w-[350px] lg:h-[560px]`}
+            className={`hidden md:hidden lg:flex w-full h-[240px] pl-[24px] pb-[23px] flex-col justify-end bg-no-repeat bg-cover relative md:pl-[40px] md:pb-[39px] lg:w-[350px] lg:h-[560px]`}
           >
             <h2 className="text-[32px] text-[#FFF] font-bold leading-[40px] z-10">
               {item.name}
