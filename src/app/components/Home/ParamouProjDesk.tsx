@@ -28,8 +28,6 @@ export default function ParamouProjDesk() {
     setProject(filterProj());
   }, [itemNum]);
 
-  console.log(itemNum, "masdasdasd");
-
   return (
     <div
       className="hidden lg:flex w-full h-[560px] bg-no-repeat bg-cover px-[32px] justify-center items-start flex-col gap-[83px] relative mb-[141px] md:w-[573px] md:h-[720px] md:px-[58px] md:gap-[41px] md:mb-[248px] lg:w-[1110px] lg:px-[190px]"

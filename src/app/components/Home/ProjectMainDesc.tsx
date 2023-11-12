@@ -31,11 +31,7 @@ export default function ProjectMainDesc(): JSX.Element {
           </p>
         </div>
       </div>
-      <Image
-        src={welcomeoImg}
-        alt="welcome image"
-        className="hidden lg:flex "
-      />
+      <Image src={welcomeoImg} alt="welcome image" className="hidden lg:flex" />
     </div>
   );
 }
