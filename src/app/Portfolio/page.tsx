@@ -8,7 +8,7 @@ export default function PortfComp() {
       {PortfolioItems.PortfolioArray.map((item, id) => (
         <div
           key={id}
-          className="flex flex-col w-full justify-center items-center lg:flex-row lg:flex-wrap lg:gap-x-[30px] lg:gap-y-[32px] lg:w-[1110px] lg:items-start lg:justify-start"
+          className="flex flex-col w-full justify-center items-center lg:flex-row lg:gap-x-[30px] lg:gap-y-[32px] lg:w-[1110px]"
         >
           <div
             style={{
