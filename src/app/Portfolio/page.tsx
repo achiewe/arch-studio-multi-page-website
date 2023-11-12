@@ -4,7 +4,7 @@ import { PortfolioItems } from "./PortfolioData";
 
 export default function PortfComp() {
   return (
-    <div className="mt-[55px] flex flex-col gap-[24px] px-[32px] w-full mb-[132px] md:mt-0 md:mb-[200px] md:px-0 justify-center items-center lg:max-w-[1110px] lg:flex-row lg:flex-wrap lg:gap-x-[30px] lg:gap-y-[32px]">
+    <div className="mt-[55px] flex flex-col gap-[24px] px-[32px] w-full mb-[132px] md:mt-0 md:mb-[200px] md:px-0 justify-center items-center lg:w-[1110px] lg:flex-row lg:gap-x-[30px] lg:gap-y-[32px]">
       {PortfolioItems.PortfolioArray.map((item, id) => (
         <div
           key={id}
