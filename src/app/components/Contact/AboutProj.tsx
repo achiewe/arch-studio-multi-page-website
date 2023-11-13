@@ -1,5 +1,4 @@
 export default function AboutProj() {
-  console.log("Asas");
   return (
     <div className="w-full flex flex-col gap-[20px] mb-[76px] md:relative md:justify-center md:items-center md:mb-[200px] lg:w-[1110px] lg:items-start">
       <div className="flex flex-col md:w-[573px] md:relative md:justify-center md:items-center lg:w-[635px]">
