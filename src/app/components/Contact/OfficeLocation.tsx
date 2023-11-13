@@ -7,13 +7,6 @@ import dynamic from "next/dynamic";
 
 // location map
 export default function OfficeLocation() {
-  const MapContainer = dynamic(
-    () => import("react-leaflet").then((module) => module.MapContainer),
-    {
-      ssr: false, // Ensure Leaflet components don't render on the server
-    }
-  );
-
   const markers = [
     {
       geocode: [32.195189, -95.852155],
