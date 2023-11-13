@@ -1,5 +1,4 @@
 "use client";
-import { useEffect, useState } from "react";
 import { PortfolioItems } from "./PortfolioData";
 
 export default function PortfComp() {
