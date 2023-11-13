@@ -27,7 +27,6 @@ export default function OfficeLocation() {
       <MapContainer
         center={[34.756846, -90.068075]}
         zoom={5}
-        scrollWheelZoom={false}
         style={{ width: "100%", height: "100%" }}
       >
         <TileLayer
