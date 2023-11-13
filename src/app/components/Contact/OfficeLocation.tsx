@@ -3,7 +3,6 @@ import "leaflet/dist/leaflet.css";
 import { MapContainer, Marker, TileLayer } from "react-leaflet";
 import { Icon } from "leaflet";
 import iconHamburger from "../../../../public/assets/icons/Combined Shape.svg";
-import dynamic from "next/dynamic";
 
 // location map
 export default function OfficeLocation() {
