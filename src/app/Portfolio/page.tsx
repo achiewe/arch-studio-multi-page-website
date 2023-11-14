@@ -3,22 +3,27 @@ import { useEffect, useState } from "react";
 import { PortfolioItems } from "./PortfolioData";
 
 export default function PortfComp() {
-  const [currentDeviceType, updateDeviceType] = useState(detectDeviceType());
+  const [currentDeviceType, updateDeviceType] = useState("desktop");
 
   useEffect(() => {
     function handleWindowResize() {
       updateDeviceType(detectDeviceType());
     }
 
-    window.addEventListener("resize", handleWindowResize);
+    // Check if window is defined before adding event listener
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", handleWindowResize);
 
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
+      // Cleanup the event listener on component unmount
+      return () => {
+        window.removeEventListener("resize", handleWindowResize);
+      };
+    }
   }, []);
 
   function detectDeviceType() {
-    const windowWidth = window.innerWidth;
+    // Check if window is defined before accessing innerWidth
+    const windowWidth = typeof window !== "undefined" ? window.innerWidth : 0;
 
     if (windowWidth <= 768) {
       return "mobile";
