@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-In creating my entertainment web app using react, typeScript, node.js, styled Components, and redux. i explored into full-stack development, mastering both front-end and back-end sides, including user authentication and secure data storage. working with react and typeScript improved code quality. advance the backend with Node.js exposed me to server-side programming and data management. creating redux for state management enhanced my ability to efficiently manage complex application states. i became skilful in dynamic data handling, including filtering and displaying data to improve user experience. balancing functionality and aesthetics helped me create an intuitive and convenient design.
+Arch Studio multi page website challenge, showcases my proficiency in building a seamless and efficient web application using Next.js—a React framework. the website includes four main pages: Home, Portfolio, About Us, and Contact Us, demonstrating my ability to leverage Next.js for organized and dynamic page routing. this experience has enhanced my skills in frontend development, particularly in creating responsive layouts, incorporating form validation using yup, and utilizing state management with Redux.
 
 ## Author
 
