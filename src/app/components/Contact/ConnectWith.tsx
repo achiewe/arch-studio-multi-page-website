@@ -27,7 +27,7 @@ export default function ConnectWith() {
     console.log(data);
   };
   return (
-    <div className="w-full px-[32px] gap-[42px] flex flex-col mb-[132px] md:gap-[60px] md:px-0 md:w-[572px] lg:flex-row lg:w-[1110px] lg:gap-[30px]">
+    <div className="w-full px-[32px] gap-[42px] flex flex-col mb-[132px] md:gap-[60px] md:px-0 md:w-[572px] lg:flex-row lg:w-[1024px] xl:w-[1110px] lg:gap-[30px]">
       <h2 className="text-[48px] text-[#1B1D23] w-[200px] font-bold leading-[52px] tracking-[-1.714px]  md:text-[72px] md:leading-[64px] md:tracking-[-2px] md:w-[473px]">
         Connect with us
       </h2>
