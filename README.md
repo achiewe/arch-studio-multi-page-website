@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-Arch Studio multi page website challenge, showcases my proficiency in building a seamless and efficient web application using Next.js—a React framework. the website includes four main pages: Home, Portfolio, About Us, and Contact Us, demonstrating my ability to leverage Next.js for organized and dynamic page routing. this experience has enhanced my skills in frontend development, particularly in creating responsive layouts, incorporating form validation using yup, and utilizing state management with Redux.
+Arch Studio multi page website challenge, showcases my proficiency in building a seamless and efficient web application using Next.js a React framework. the website includes four main pages: Home, Portfolio, About Us, and Contact Us, demonstrating my ability to leverage Next.js for organized and dynamic page routing. this experience has enhanced my skills in frontend development, particularly in creating responsive layouts, incorporating form validation using yup, and utilizing state management with Redux.
 
 ## Author
 
