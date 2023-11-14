@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Heritage() {
   return (
-    <div className="flex flex-col w-full px-[32px] items-start gap-[68px] mb-[112px] md:gap-[49px] md:w-[573px] md:px-0 md:items-start md:justify-center md:mb-[231px] lg:w-[1024px] xl:w-[1110px] lg:flex-row lg:items-start lg:justify-between lg:mb-[200px]">
+    <div className="flex flex-col w-full px-[32px] items-start gap-[68px] mb-[112px] md:gap-[49px] md:w-[573px] md:px-0 md:items-start md:justify-center md:mb-[231px] lg:w-[970px] xl:w-[1110px] lg:flex-row lg:items-start lg:justify-between lg:mb-[200px]">
       <hr className="w-[65px] h-[1px] bg-[#C8CCD8] lg:hidden  border-none" />
       <div className="flex flex-col lg:gap-[82px]">
         <hr className="hidden lg:flex w-[65px] h-[1px] bg-[#C8CCD8] border-none" />

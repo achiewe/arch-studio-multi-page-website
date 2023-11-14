@@ -1,6 +1,6 @@
 export default function AboutProj() {
   return (
-    <div className="w-full flex flex-col gap-[20px] mb-[76px] md:relative md:justify-center md:items-center md:mb-[200px] lg:w-[1110px] lg:items-start">
+    <div className="w-full flex flex-col gap-[20px] mb-[76px] md:relative md:justify-center md:items-center md:mb-[200px] lg:w-[970px] xl:w-[1110px] lg:items-start">
       <div className="flex flex-col md:w-[573px] md:relative md:justify-center md:items-center lg:w-[635px]">
         <div className="w-full h-[240px] flex items-end justify-start bg-imageHeroMobCont bg-no-repeat bg-cover relative md:bg-imageHeroTabCont md:w-[573px] md:h-[720px] lg:w-[635px] lg:h-[720px] lg:bg-imageHeroDeskCont">
           <div className="w-full h-full bg-black opacity-50 top-0 left-0 right-0 bottom-0 absolute"></div>

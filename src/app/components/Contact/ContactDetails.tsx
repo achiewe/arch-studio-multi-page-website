@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ContactDetails() {
   return (
-    <div className="flex flex-col w-full px-[32px] items-start gap-[68px] mb-[71px] md:gap-[49px] md:px-0 md:w-[573px] md:mb-[226px] lg:w-[1024px] xl:w-[1110px] lg:gap-[73px]">
+    <div className="flex flex-col w-full px-[32px] items-start gap-[68px] mb-[71px] md:gap-[49px] md:px-0 md:w-[573px] md:mb-[226px] lg:w-[970px] xl:w-[1110px] lg:gap-[73px]">
       <hr className="w-[65px] h-[1px] bg-[#C8CCD8] border-none" />
       <div className="w-full flex flex-col gap-[40px] items-start md:gap-[42px] lg:flex-row lg:gap-[30px]">
         <div className="flex flex-col lg:gap-[73px]">
