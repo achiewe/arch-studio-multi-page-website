@@ -1,7 +1,15 @@
 import AboutProj from "../components/Contact/AboutProj";
 import ConnectWith from "../components/Contact/ConnectWith";
 import ContactDetails from "../components/Contact/ContactDetails";
-import OfficeLocation from "../components/Contact/OfficeLocation";
+import "leaflet/dist/leaflet.css";
+import dynamic from "next/dynamic";
+
+const OfficeLocation = dynamic(
+  () => import("../components/Contact/OfficeLocation"),
+  {
+    ssr: false,
+  }
+);
 
 export default function ContactComp() {
   return (
