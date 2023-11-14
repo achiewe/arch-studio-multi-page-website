@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function FeaturedComp() {
   return (
-    <div className="w-full px-[32px] flex items-start  flex-col gap-[43px] mb-[132px] md:w-[573px] md:px-0 md:gap-[85px] lg:w-[1110px] lg:gap-[64px]">
+    <div className="w-full px-[32px] flex items-start  flex-col gap-[43px] mb-[132px] md:w-[573px] md:px-0 md:gap-[85px] lg:w-[970px] xl:w-[1110px] lg:gap-[64px]">
       <div className="w-full flex flex-row justify-between items-center">
         <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[-1.714px] md:text-[72px] md:leading-[64px] md:tracking-[-2px]">
           Featured

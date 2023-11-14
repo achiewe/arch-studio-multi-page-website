@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ProjectMainDesc(): JSX.Element {
   return (
-    <div className="w-full flex flex-col gap-[22px] px-[32px] items-start mb-[113px] relative md:gap-[43px] md:w-[572px] md:px-0 md:mb-[233px] lg:flex-row lg:w-[1110px] lg:items-end lg:justify-center lg:gap-[125px]">
+    <div className="w-full flex flex-col gap-[22px] px-[32px] items-start mb-[113px] relative md:gap-[43px] md:w-[572px] md:px-0 md:mb-[233px] lg:flex-row lg:w-[720px] xl:w-[1000px] 2xl:w-[1110px] lg:items-end lg:justify-center lg:gap-[125px]">
       <h3 className="hidden md:flex absolute top-[-150px] w-[581px] text-[120px] font-bold text-[#EEEFF4] leading-[200px] tracking-[-3px] lg:text-[250px] lg:left-[-150px] lg:top-[-90px]">
         Welcome
       </h3>

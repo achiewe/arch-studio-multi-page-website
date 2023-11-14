@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutTeam() {
   return (
-    <div className="w-full h-[560px] bg-SmallTeamMob bg-no-repeat bg-cover flex justify-center flex-col gap-[23px] items-start px-[32px] relative mb-[73px] md:w-[573px] md:bg-SmallTeamTab md:gap-[30px] md:px-[58px] md:mb-[200px] lg:bg-SmallTeamDesk lg:w-[1110px] lg:px-[190px]">
+    <div className="w-full h-[560px] bg-SmallTeamMob bg-no-repeat bg-cover flex justify-center flex-col gap-[23px] items-start px-[32px] relative mb-[73px] md:w-[573px] md:bg-SmallTeamTab md:gap-[30px] md:px-[58px] md:mb-[200px] lg:bg-SmallTeamDesk lg:w-[970px] xl:w-[1110px] lg:px-[190px]">
       <div className="absolute w-full h-full bg-black opacity-50 top-0 left-0"></div>
       <h1 className="text-[48px] text-[#FFF] font-bold leading-[48px] tracking-[-1.2px] z-10 md:text-[72px] md:leading-[64px] md:tracking-[-2px] lg:w-[445px]">
         Small team, big ideas
