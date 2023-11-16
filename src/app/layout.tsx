@@ -8,6 +8,8 @@ import Footer from "./components/Footer/Footer";
 
 const spartan = League_Spartan({ subsets: ["latin"], weight: ["500", "700"] });
 
+// render the pages
+
 export const metadata: Metadata = {
   title: "arch studio multi page",
   description:
