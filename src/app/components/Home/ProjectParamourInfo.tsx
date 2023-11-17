@@ -3,6 +3,8 @@ import arrowWhiteSvg from "../../../../public/assets/icons/icon-white-arrow.svg"
 import Image from "next/image";
 import Link from "next/link";
 
+// ProjectMaramourInfo component for home
+
 export default function ProjectParamourInfo(): JSX.Element {
   return (
     <div className="w-full h-[560px] flex bg-no-repeat bg-cover px-[32px] justify-center items-start flex-col gap-[83px] relative bg-PraramourMob mb-[141px] md:w-[573px] md:h-[720px] md:bg-ParamourTab md:px-[58px] md:gap-[41px] md:mb-[248px] lg:hidden">
