@@ -1,6 +1,7 @@
 import ArrowSvg from "../../../../public/assets/icons/icon-arrow.svg";
 import Image from "next/image";
 
+// contact details component
 export default function ContactDetails() {
   return (
     <div className="flex flex-col w-full px-[32px] items-start gap-[68px] mb-[71px] md:gap-[49px] md:px-0 md:w-[573px] md:mb-[226px] lg:w-[970px] xl:w-[1110px] lg:gap-[73px]">
