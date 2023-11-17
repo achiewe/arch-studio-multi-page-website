@@ -4,6 +4,8 @@ import ContactDetails from "../components/Contact/ContactDetails";
 import "leaflet/dist/leaflet.css";
 import dynamic from "next/dynamic";
 
+// add dynamic for work officeLocation component
+
 const OfficeLocation = dynamic(
   () => import("../components/Contact/OfficeLocation"),
   {
