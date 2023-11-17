@@ -2,6 +2,7 @@ import Link from "next/link";
 import arrowWhiteSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
 import Image from "next/image";
 
+// home component aboutTeam
 export default function AboutTeam() {
   return (
     <div className="w-full h-[560px] bg-SmallTeamMob bg-no-repeat bg-cover flex justify-center flex-col gap-[23px] items-start px-[32px] relative mb-[73px] md:w-[573px] md:bg-SmallTeamTab md:gap-[30px] md:px-[58px] md:mb-[200px] lg:bg-SmallTeamDesk lg:w-[970px] xl:w-[1110px] lg:px-[190px]">
