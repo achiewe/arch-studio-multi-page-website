@@ -1,3 +1,4 @@
+// contact component
 export default function AboutProj() {
   return (
     <div className="w-full flex flex-col gap-[20px] mb-[76px] md:relative md:justify-center md:items-center md:mb-[200px] lg:w-[970px] xl:w-[1110px] lg:items-start">
