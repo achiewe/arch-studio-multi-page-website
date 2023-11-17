@@ -10,6 +10,7 @@ const initialState: BurgerProps = {
   openFrame: false,
 };
 
+// state becomes from false to true
 const OpenBurgerSlice = createSlice({
   name: "openFrame",
   initialState,
