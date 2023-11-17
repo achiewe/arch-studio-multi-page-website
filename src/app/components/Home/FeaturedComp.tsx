@@ -2,6 +2,7 @@ import Link from "next/link";
 import arrowSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
 import Image from "next/image";
 
+// featuredComp component for home
 export default function FeaturedComp() {
   return (
     <div className="w-full px-[32px] flex items-start  flex-col gap-[43px] mb-[132px] md:w-[573px] md:px-0 md:gap-[85px] lg:w-[970px] xl:w-[1110px] lg:gap-[64px]">
