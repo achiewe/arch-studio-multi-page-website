@@ -1,6 +1,7 @@
 // burger menu state for open it
 import { createSlice } from "@reduxjs/toolkit";
 
+//redux state
 export interface BurgerProps {
   openFrame: boolean;
 }
