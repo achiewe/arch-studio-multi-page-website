@@ -1,6 +1,7 @@
 import welcomeoImg from "../../../../public/assets/home/desktop/image-welcome.jpg";
 import Image from "next/image";
 
+// ProjectMainDesc component for home
 export default function ProjectMainDesc(): JSX.Element {
   return (
     <div className="w-full flex flex-col gap-[22px] px-[32px] items-start mb-[113px] relative md:gap-[43px] md:w-[572px] md:px-0 md:mb-[233px] lg:flex-row lg:w-[720px] xl:w-[1000px] 2xl:w-[1110px] lg:items-end lg:justify-center lg:gap-[125px]">
