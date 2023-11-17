@@ -13,6 +13,8 @@ interface ItemProps {
   id: string;
 }
 
+// add paramouPrjDesk for home
+
 export default function ParamouProjDesk() {
   const firstItem = MainProjItem.PortfolioArray.filter(
     (item) => item.id === "01"
