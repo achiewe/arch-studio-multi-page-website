@@ -14,6 +14,7 @@ interface TypeEmailMessage {
   message: string;
 }
 
+// create component for contact page
 export default function ConnectWith() {
   const {
     register,
