@@ -16,6 +16,7 @@ export default function OfficeLocation() {
     },
   ];
 
+  //add map on the customIcon
   const customIcon = new Icon({
     iconUrl: iconHamburger.src,
     iconSize: [40, 48],
