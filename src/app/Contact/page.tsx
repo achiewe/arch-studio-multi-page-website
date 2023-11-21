@@ -13,6 +13,7 @@ const OfficeLocation = dynamic(
   }
 );
 
+// main components in contact component
 export default function ContactComp() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
