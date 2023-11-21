@@ -9,6 +9,7 @@ interface ProjectPorps {
   }[];
 }
 
+// data for portfolio
 export const PortfolioItems: ProjectPorps = {
   PortfolioArray: [
     {
