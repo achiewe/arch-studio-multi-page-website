@@ -1,3 +1,4 @@
+//  interface for data
 interface ProjectPorps {
   PortfolioArray: {
     name: string;
