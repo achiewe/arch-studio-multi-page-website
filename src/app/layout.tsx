@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     "Explore stunning architectural designs and interior trends with Arch Studio. Your source for creative inspiration in architecture.",
 };
 
+// add function for render
 export default function RootLayout({
   children,
 }: {
