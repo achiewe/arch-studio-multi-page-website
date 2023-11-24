@@ -6,6 +6,7 @@ export interface BurgerProps {
   openFrame: boolean;
 }
 
+// state which is at the beggining false
 const initialState: BurgerProps = {
   openFrame: false,
 };
