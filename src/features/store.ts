@@ -1,6 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 import OpenBurgerSlice, { BurgerProps } from "./OpenBurgerSlice";
 
+//store for be every state here
+
 const store = configureStore({
   reducer: {
     openFrame: OpenBurgerSlice,
