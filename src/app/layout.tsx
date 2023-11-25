@@ -7,7 +7,7 @@ import BurgerMenu from "./components/Header/BurgerMenu";
 import Footer from "./components/Footer/Footer";
 
 const spartan = League_Spartan({ subsets: ["latin"], weight: ["500", "700"] });
-
+//  write description and title
 export const metadata: Metadata = {
   title: "arch studio multi page",
   description:
