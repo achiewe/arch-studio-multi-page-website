@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { PortfolioItems } from "./PortfolioData";
 
+// write window for responsive design
 export default function PortfComp() {
   const [currentDeviceType, updateDeviceType] = useState("desktop");
 
