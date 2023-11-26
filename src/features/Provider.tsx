@@ -1,5 +1,6 @@
 "use client";
 
+// provider for use on in the website state
 import store from "./store";
 import { Provider } from "react-redux";
 
