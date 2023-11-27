@@ -9,6 +9,8 @@ const store = configureStore({
   },
 });
 
+// use openFrame for states
+
 export type RootState = {
   openFrame: BurgerProps;
 };
