@@ -7,6 +7,8 @@ export interface MainProj {
   }[];
 }
 
+// data for proj info
+
 export const MainProjItem: MainProj = {
   PortfolioArray: [
     {
