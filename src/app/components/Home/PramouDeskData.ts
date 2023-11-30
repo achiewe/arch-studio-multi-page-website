@@ -1,3 +1,4 @@
+// data types in the interface
 export interface MainProj {
   PortfolioArray: {
     name: string;
