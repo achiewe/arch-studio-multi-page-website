@@ -4,6 +4,7 @@
 import store from "./store";
 import { Provider } from "react-redux";
 
+// type of the children
 type ProvidersProps = {
   children: React.ReactNode;
 };
