@@ -1,4 +1,4 @@
-// use yup for send message
+// use yup for send notification
 
 import * as yup from "yup";
 
