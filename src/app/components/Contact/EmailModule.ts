@@ -1,4 +1,4 @@
-// use yup for authorization
+// use yup for send message
 
 import * as yup from "yup";
 
